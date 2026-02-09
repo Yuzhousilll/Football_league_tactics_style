@@ -1,0 +1,251 @@
+metric,rank,player,squad,value
+最佳射手,1,Harry Kane,Tottenham Hotspur,25
+最佳射手,2,Jamie Vardy,Leicester City,24
+最佳射手,2,Sergio Agüero,Manchester City,24
+最佳射手,4,Romelu Lukaku,Everton,18
+最佳射手,5,Riyad Mahrez,Leicester City,17
+最佳射手,6,Olivier Giroud,Arsenal,16
+最佳射手,7,Odion Ighalo,Watford,15
+最佳射手,7,Jermain Defoe,Sunderland,15
+最佳射手,9,Alexis Sánchez,Arsenal,13
+最佳射手,9,Troy Deeney,Watford,13
+每90min进球榜,1,Sergio Agüero,Manchester City,0.92
+每90min进球榜,2,Jamie Vardy,Leicester City,0.69
+每90min进球榜,3,Harry Kane,Tottenham Hotspur,0.67
+每90min进球榜,4,Olivier Giroud,Arsenal,0.59
+每90min进球榜,5,Andy Carroll,West Ham United,0.56
+每90min进球榜,6,Christian Benteke,Liverpool,0.53
+每90min进球榜,6,Jermain Defoe,Sunderland,0.53
+每90min进球榜,8,Romelu Lukaku,Everton,0.51
+每90min进球榜,9,Riyad Mahrez,Leicester City,0.5
+每90min进球榜,10,Alexis Sánchez,Arsenal,0.48
+助攻王,1,Mesut Özil,Arsenal,19
+助攻王,2,Christian Eriksen,Tottenham Hotspur,13
+助攻王,3,Dušan Tadić,Southampton,12
+助攻王,3,Dimitri Payet,West Ham United,12
+助攻王,5,James Milner,Liverpool,11
+助攻王,5,Riyad Mahrez,Leicester City,11
+助攻王,5,David Silva,Manchester City,11
+助攻王,8,Érik Lamela,Tottenham Hotspur,9
+助攻王,8,Dele Alli,Tottenham Hotspur,9
+助攻王,8,Kevin De Bruyne,Manchester City,9
+每90min助攻榜,1,Mesut Özil,Arsenal,0.56
+每90min助攻榜,2,David Silva,Manchester City,0.55
+每90min助攻榜,3,Gerard Deulofeu,Everton,0.52
+每90min助攻榜,4,Dušan Tadić,Southampton,0.47
+每90min助攻榜,5,Dimitri Payet,West Ham United,0.42
+每90min助攻榜,6,James Milner,Liverpool,0.41
+每90min助攻榜,7,Christian Eriksen,Tottenham Hotspur,0.4
+每90min助攻榜,7,Kevin De Bruyne,Manchester City,0.4
+每90min助攻榜,9,Adam Johnson,Sunderland,0.39
+每90min助攻榜,10,Wes Hoolahan,Norwich City,0.36
+造进球数(进球+助攻),1,Jamie Vardy,Leicester City,30
+造进球数(进球+助攻),2,Riyad Mahrez,Leicester City,28
+造进球数(进球+助攻),3,Harry Kane,Tottenham Hotspur,26
+造进球数(进球+助攻),3,Sergio Agüero,Manchester City,26
+造进球数(进球+助攻),5,Mesut Özil,Arsenal,25
+造进球数(进球+助攻),6,Romelu Lukaku,Everton,24
+造进球数(进球+助攻),7,Olivier Giroud,Arsenal,22
+造进球数(进球+助攻),8,Dimitri Payet,West Ham United,21
+造进球数(进球+助攻),9,Dušan Tadić,Southampton,20
+造进球数(进球+助攻),9,Troy Deeney,Watford,20
+每90min造进球榜,1,Sergio Agüero,Manchester City,0.99
+每90min造进球榜,2,Jamie Vardy,Leicester City,0.86
+每90min造进球榜,3,Riyad Mahrez,Leicester City,0.83
+每90min造进球榜,4,Olivier Giroud,Arsenal,0.82
+每90min造进球榜,5,Dušan Tadić,Southampton,0.79
+每90min造进球榜,6,Roberto Firmino,Liverpool,0.78
+每90min造进球榜,7,Mesut Özil,Arsenal,0.74
+每90min造进球榜,7,Dimitri Payet,West Ham United,0.74
+每90min造进球榜,9,Kevin De Bruyne,Manchester City,0.72
+每90min造进球榜,10,Christian Benteke,Liverpool,0.71
+制造点球数,1,Troy Deeney,Watford,6
+制造点球数,2,Harry Kane,Tottenham Hotspur,5
+制造点球数,2,Jamie Vardy,Leicester City,5
+制造点球数,4,Riyad Mahrez,Leicester City,4
+制造点球数,4,Sergio Agüero,Manchester City,4
+制造点球数,6,Mark Noble,West Ham United,3
+制造点球数,6,Gylfi Sigurðsson,Swansea City,3
+制造点球数,6,Marko Arnautović,Stoke City,3
+制造点球数,6,Yohan Cabaye,Crystal Palace,3
+制造点球数,10,Aleksandar Mitrović,Newcastle United,2
+制造点球数,10,Ross Barkley,Everton,2
+制造点球数,10,Charlie Daniels,Bournemouth,2
+制造点球数,10,Cesc Fàbregas,Chelsea,2
+制造点球数,10,Bojan Krkić,Stoke City,2
+无点球进球数,1,Harry Kane,Tottenham Hotspur,20
+无点球进球数,1,Sergio Agüero,Manchester City,20
+无点球进球数,3,Jamie Vardy,Leicester City,19
+无点球进球数,4,Romelu Lukaku,Everton,17
+无点球进球数,5,Odion Ighalo,Watford,15
+无点球进球数,5,Olivier Giroud,Arsenal,15
+无点球进球数,7,Jermain Defoe,Sunderland,14
+无点球进球数,8,Alexis Sánchez,Arsenal,13
+无点球进球数,8,Riyad Mahrez,Leicester City,13
+无点球进球数,10,André Ayew,Swansea City,12
+无点球进球数,10,Diego Costa,Chelsea,12
+射门数,1,Sebastián Coates,Sunderland,6
+每90min射门数,1,Sebastián Coates,Sunderland,0.44
+射正次数,1,Harry Kane,Tottenham Hotspur,75
+射正次数,2,Jamie Vardy,Leicester City,53
+射正次数,3,Sergio Agüero,Manchester City,52
+射正次数,4,Odion Ighalo,Watford,48
+射正次数,4,Romelu Lukaku,Everton,48
+射正次数,6,Olivier Giroud,Arsenal,43
+射正次数,7,Christian Eriksen,Tottenham Hotspur,42
+射正次数,8,Riyad Mahrez,Leicester City,39
+射正次数,8,Jermain Defoe,Sunderland,39
+射正次数,10,Alexis Sánchez,Arsenal,38
+每90min射正次数,1,Harry Kane,Tottenham Hotspur,2.01
+每90min射正次数,2,Sergio Agüero,Manchester City,1.98
+每90min射正次数,3,Olivier Giroud,Arsenal,1.59
+每90min射正次数,4,Andy Carroll,West Ham United,1.56
+每90min射正次数,5,Jamie Vardy,Leicester City,1.52
+每90min射正次数,6,Theo Walcott,Arsenal,1.44
+每90min射正次数,7,Alexis Sánchez,Arsenal,1.4
+每90min射正次数,8,Jermain Defoe,Sunderland,1.38
+每90min射正次数,9,Odion Ighalo,Watford,1.37
+每90min射正次数,10,Romelu Lukaku,Everton,1.36
+进球/射正,1,Benik Afobe,Bournemouth,0.8
+进球/射正,2,Ramiro Funes Mori,Everton,0.67
+进球/射正,2,Kelechi Iheanacho,Manchester City,0.67
+进球/射正,4,Marcus Rashford,Manchester Utd,0.63
+进球/射正,5,Steven Davis,Southampton,0.56
+进球/射正,6,Manuel Lanzini,West Ham United,0.55
+进球/射正,7,Robert Huth,Leicester City,0.5
+进球/射正,7,Russell Martin,Norwich City,0.5
+进球/射正,7,Steve Cook,Bournemouth,0.5
+进球/射正,7,Craig Dawson,West Bromwich Albion,0.5
+进球/射正,7,Callum Wilson,Bournemouth,0.5
+进球/射正,7,Leonardo Ulloa,Leicester City,0.5
+进球/射正,7,Laurent Koscielny,Arsenal,0.5
+传中次数,null,null,null,null
+黄牌数,1,James Milner,Liverpool,11
+黄牌数,1,Jack Colback,Newcastle United,11
+黄牌数,3,Erik Pieters,Stoke City,10
+黄牌数,3,Idrissa Gana Gueye,Aston Villa,10
+黄牌数,3,Alexander Tettey,Norwich City,10
+黄牌数,3,Eric Dier,Tottenham Hotspur,10
+黄牌数,7,Nicolás Otamendi,Manchester City,9
+黄牌数,7,Emre Can,Liverpool,9
+黄牌数,7,Érik Lamela,Tottenham Hotspur,9
+黄牌数,7,Claudio Yacob,West Bromwich Albion,9
+红牌数,1,Victor Wanyama,Southampton,3
+红牌数,2,Philippe Coutinho,Liverpool,2
+红牌数,2,Thibaut Courtois,Chelsea,2
+红牌数,2,Sadio Mané,Southampton,2
+红牌数,2,John Terry,Chelsea,2
+红牌数,2,Kevin Mirallas,Everton,2
+红牌数,2,Aleksandar Mitrović,Newcastle United,2
+红牌数,2,Younès Kaboul,Sunderland,2
+红牌数,9,Gabriel Paulista,Arsenal,1
+红牌数,9,Ramiro Funes Mori,Everton,1
+红牌数,9,Salomón Rondón,West Bromwich Albion,1
+红牌数,9,Charlie Adam,Stoke City,1
+红牌数,9,Gareth McAuley,West Bromwich Albion,1
+红牌数,9,Francis Coquelin,Arsenal,1
+红牌数,9,Ibrahim Afellay,Stoke City,1
+红牌数,9,José Fonte,Southampton,1
+红牌数,9,Cheikhou Kouyaté,West Ham United,1
+红牌数,9,Mark Noble,West Ham United,1
+红牌数,9,James Collins,West Ham United,1
+红牌数,9,Brad Smith,Liverpool,1
+红牌数,9,Valon Behrami,Watford,1
+红牌数,9,Jordan Ayew,Aston Villa,1
+红牌数,9,Santi Cazorla,Arsenal,1
+红牌数,9,Dwight Gayle,Crystal Palace,1
+红牌数,9,Kyle Naughton,Swansea City,1
+红牌数,9,Nathan Aké,Watford,1
+红牌数,9,Nemanja Matić,Chelsea,1
+红牌数,9,Adrián,West Ham United,1
+红牌数,9,Steven Whittaker,Norwich City,1
+红牌数,9,Pape Souaré,Crystal Palace,1
+红牌数,9,Geoff Cameron,Stoke City,1
+红牌数,9,Simon Francis,Bournemouth,1
+红牌数,9,Russell Martin,Norwich City,1
+红牌数,9,Danny Drinkwater,Leicester City,1
+红牌数,9,Ryan Shawcross,Stoke City,1
+红牌数,9,Juan Mata,Manchester Utd,1
+红牌数,9,James Milner,Liverpool,1
+红牌数,9,Danny Simpson,Leicester City,1
+红牌数,9,Jamaal Lascelles,Newcastle United,1
+红牌数,9,Jamie Vardy,Leicester City,1
+红牌数,9,Daryl Janmaat,Newcastle United,1
+红牌数,9,Carl Jenkinson,West Ham United,1
+红牌数,9,James McClean,West Bromwich Albion,1
+红牌数,9,Per Mertesacker,Arsenal,1
+红牌数,9,James McCarthy,Everton,1
+红牌数,9,Alan Hutton,Aston Villa,1
+红牌数,9,Jeremain Lens,Sunderland,1
+红牌数,9,Gary O'Neil,Norwich City,1
+红牌数,9,Fabricio Coloccini,Newcastle United,1
+红牌数,9,Nordin Amrabat,Watford,1
+红牌数,9,Gareth Barry,Everton,1
+红牌数,9,Aly Cissokho,Aston Villa,1
+犯规数,1,Idrissa Gana Gueye,Aston Villa,68
+犯规数,2,Érik Lamela,Tottenham Hotspur,66
+犯规数,3,Claudio Yacob,West Bromwich Albion,62
+犯规数,4,Erik Pieters,Stoke City,58
+犯规数,5,Fernandinho,Manchester City,55
+犯规数,6,Danny Drinkwater,Leicester City,54
+犯规数,7,Étienne Capoue,Watford,53
+犯规数,8,Morgan Schneiderlin,Manchester Utd,52
+犯规数,8,Eric Dier,Tottenham Hotspur,52
+犯规数,10,Moussa Sissoko,Newcastle United,50
+犯规数,10,Aleksandar Mitrović,Newcastle United,50
+犯规数,10,Troy Deeney,Watford,50
+犯规数,10,Victor Wanyama,Southampton,50
+造犯规数,null,null,null,null
+成功抢断,null,null,null,null
+拦截,null,null,null,null
+最多零封门将,1,Petr Čech,Arsenal,16
+最多零封门将,2,Kasper Schmeichel,Leicester City,15
+最多零封门将,2,Joe Hart,Manchester City,15
+最多零封门将,2,David de Gea,Manchester Utd,15
+最多零封门将,5,Hugo Lloris,Tottenham Hotspur,13
+最多零封门将,6,Heurelho Gomes,Watford,11
+最多零封门将,7,Jack Butland,Stoke City,10
+最多零封门将,8,Adrián,West Ham United,9
+最多零封门将,8,Łukasz Fabiański,Swansea City,9
+最多零封门将,10,Wayne Hennessey,Crystal Palace,8
+零封率,1,Petr Čech,Arsenal,47.1
+零封率,2,David de Gea,Manchester Utd,44.1
+零封率,3,Joe Hart,Manchester City,42.9
+零封率,4,Kasper Schmeichel,Leicester City,39.5
+零封率,5,Maarten Stekelenburg,Southampton,35.3
+零封率,6,Hugo Lloris,Tottenham Hotspur,35.1
+零封率,7,Fraser Forster,Southampton,33.3
+零封率,8,Jack Butland,Stoke City,32.3
+零封率,9,Boaz Myhill,West Bromwich Albion,30.4
+零封率,10,Heurelho Gomes,Watford,28.9
+扑救数,1,Łukasz Fabiański,Swansea City,109
+扑救数,2,Jack Butland,Stoke City,102
+扑救数,3,Kasper Schmeichel,Leicester City,100
+扑救数,4,Adrián,West Ham United,99
+扑救数,5,Petr Čech,Arsenal,95
+扑救数,6,Brad Guzan,Aston Villa,86
+扑救数,7,Hugo Lloris,Tottenham Hotspur,85
+扑救数,8,Tim Howard,Everton,80
+扑救数,9,David de Gea,Manchester Utd,78
+扑救数,9,Wayne Hennessey,Crystal Palace,78
+扑救成功率,1,Vito Mannone,Sunderland,75.8
+扑救成功率,2,Petr Čech,Arsenal,75.4
+扑救成功率,3,Fraser Forster,Southampton,74.6
+扑救成功率,4,Kasper Schmeichel,Leicester City,73.5
+扑救成功率,5,Jack Butland,Stoke City,73.4
+扑救成功率,6,Adrián,West Ham United,71.7
+扑救成功率,6,Ben Foster,West Bromwich Albion,71.7
+扑救成功率,8,Hugo Lloris,Tottenham Hotspur,71.4
+扑救成功率,9,David de Gea,Manchester Utd,70.3
+扑救成功率,10,Asmir Begović,Chelsea,69.6
+扑救成功率,10,Tim Howard,Everton,69.6
+每90min被进球数,1,Petr Čech,Arsenal,0.91
+每90min被进球数,2,Hugo Lloris,Tottenham Hotspur,0.92
+每90min被进球数,3,Fraser Forster,Southampton,0.94
+每90min被进球数,4,Kasper Schmeichel,Leicester City,0.95
+每90min被进球数,5,David de Gea,Manchester Utd,0.97
+每90min被进球数,6,Joe Hart,Manchester City,1.04
+每90min被进球数,7,Maarten Stekelenburg,Southampton,1.12
+每90min被进球数,8,Ben Foster,West Bromwich Albion,1.13
+每90min被进球数,9,Jack Butland,Stoke City,1.19
+每90min被进球数,10,Vito Mannone,Sunderland,1.21

@@ -1,0 +1,308 @@
+metric,rank,player,squad,value
+最佳射手,1,Erling Haaland,Manchester City,27.0
+最佳射手,2,Cole Palmer,2 squads,22.0
+最佳射手,3,Alexander Isak,Newcastle United,21.0
+最佳射手,4,Ollie Watkins,Aston Villa,19.0
+最佳射手,4,Dominic Solanke,Bournemouth,19.0
+最佳射手,4,Phil Foden,Manchester City,19.0
+最佳射手,7,Mohamed Salah,Liverpool,18.0
+最佳射手,8,Son Heung-min,Tottenham Hotspur,17.0
+最佳射手,9,Jean-Philippe Mateta,Crystal Palace,16.0
+最佳射手,9,Jarrod Bowen,West Ham United,16.0
+最佳射手,9,Bukayo Saka,Arsenal,16.0
+每90min进球榜,1,Erling Haaland,Manchester City,0.95
+每90min进球榜,2,Alexander Isak,Newcastle United,0.84
+每90min进球榜,3,Diogo Jota,Liverpool,0.79
+每90min进球榜,4,Cole Palmer,2 squads,0.76
+每90min进球榜,5,Michael Olise,Crystal Palace,0.71
+每90min进球榜,6,Chris Wood,Nottingham Forest,0.7
+每90min进球榜,7,Richarlison,Tottenham Hotspur,0.66
+每90min进球榜,8,Leandro Trossard,Arsenal,0.65
+每90min进球榜,9,Mohamed Salah,Liverpool,0.64
+每90min进球榜,10,Elijah Adebayo,Luton Town,0.63
+每90min进球榜,10,Jean-Philippe Mateta,Crystal Palace,0.63
+助攻王,1,Ollie Watkins,Aston Villa,13.0
+助攻王,2,Cole Palmer,2 squads,11.0
+助攻王,3,Brennan Johnson,2 squads,10.0
+助攻王,3,Kieran Trippier,Newcastle United,10.0
+助攻王,3,Anthony Gordon,Newcastle United,10.0
+助攻王,3,Morgan Gibbs-White,Nottingham Forest,10.0
+助攻王,3,Martin Ødegaard,Arsenal,10.0
+助攻王,3,Pascal Groß,Brighton,10.0
+助攻王,3,Son Heung-min,Tottenham Hotspur,10.0
+助攻王,3,Mohamed Salah,Liverpool,10.0
+助攻王,3,Kevin De Bruyne,Manchester City,10.0
+每90min助攻榜,1,Kevin De Bruyne,Manchester City,0.74
+每90min助攻榜,2,Pedro Neto,Wolves,0.53
+每90min助攻榜,2,Jacob Murphy,Newcastle United,0.53
+每90min助攻榜,4,Jeremy Doku,Manchester City,0.45
+每90min助攻榜,5,Michael Olise,Crystal Palace,0.42
+每90min助攻榜,6,Kieran Trippier,Newcastle United,0.4
+每90min助攻榜,6,Harvey Elliott,Liverpool,0.4
+每90min助攻榜,8,Brennan Johnson,2 squads,0.39
+每90min助攻榜,8,Leon Bailey,Aston Villa,0.39
+每90min助攻榜,10,Cole Palmer,2 squads,0.38
+每90min助攻榜,10,James Maddison,Tottenham Hotspur,0.38
+造进球数(进球+助攻),1,Cole Palmer,2 squads,33.0
+造进球数(进球+助攻),2,Erling Haaland,Manchester City,32.0
+造进球数(进球+助攻),2,Ollie Watkins,Aston Villa,32.0
+造进球数(进球+助攻),4,Mohamed Salah,Liverpool,28.0
+造进球数(进球+助攻),5,Son Heung-min,Tottenham Hotspur,27.0
+造进球数(进球+助攻),5,Phil Foden,Manchester City,27.0
+造进球数(进球+助攻),7,Bukayo Saka,Arsenal,25.0
+造进球数(进球+助攻),8,Alexander Isak,Newcastle United,23.0
+造进球数(进球+助攻),9,Jarrod Bowen,West Ham United,22.0
+造进球数(进球+助攻),9,Dominic Solanke,Bournemouth,22.0
+每90min造进球榜,1,Erling Haaland,Manchester City,1.13
+每90min造进球榜,1,Michael Olise,Crystal Palace,1.13
+每90min造进球榜,1,Cole Palmer,2 squads,1.13
+每90min造进球榜,4,Kevin De Bruyne,Manchester City,1.03
+每90min造进球榜,5,Diogo Jota,Liverpool,1.02
+每90min造进球榜,6,Mohamed Salah,Liverpool,0.99
+每90min造进球榜,7,Alexander Isak,Newcastle United,0.92
+每90min造进球榜,8,Richarlison,Tottenham Hotspur,0.91
+每90min造进球榜,9,Ollie Watkins,Aston Villa,0.9
+每90min造进球榜,10,Phil Foden,Manchester City,0.85
+制造点球数,1,Cole Palmer,2 squads,9.0
+制造点球数,2,Erling Haaland,Manchester City,7.0
+制造点球数,3,Bukayo Saka,Arsenal,6.0
+制造点球数,4,Carlton Morris,Luton Town,5.0
+制造点球数,4,Mohamed Salah,Liverpool,5.0
+制造点球数,4,Alexander Isak,Newcastle United,5.0
+制造点球数,7,João Pedro,Brighton,4.0
+制造点球数,7,Douglas Luiz,Aston Villa,4.0
+制造点球数,7,Bruno Fernandes,Manchester Utd,4.0
+制造点球数,10,Bryan Mbeumo,Brentford,3.0
+无点球进球数,1,Erling Haaland,Manchester City,20.0
+无点球进球数,2,Ollie Watkins,Aston Villa,19.0
+无点球进球数,2,Phil Foden,Manchester City,19.0
+无点球进球数,4,Dominic Solanke,Bournemouth,17.0
+无点球进球数,5,Jarrod Bowen,West Ham United,16.0
+无点球进球数,5,Alexander Isak,Newcastle United,16.0
+无点球进球数,7,Son Heung-min,Tottenham Hotspur,15.0
+无点球进球数,8,Chris Wood,Nottingham Forest,14.0
+无点球进球数,8,Jean-Philippe Mateta,Crystal Palace,14.0
+无点球进球数,8,Nicolas Jackson,Chelsea,14.0
+射门数,1,Erling Haaland,Manchester City,121.0
+射门数,2,Mohamed Salah,Liverpool,114.0
+射门数,3,Dominic Solanke,Bournemouth,109.0
+射门数,4,Darwin Núñez,Liverpool,108.0
+射门数,4,Cole Palmer,2 squads,108.0
+射门数,6,Bukayo Saka,Arsenal,107.0
+射门数,7,Ollie Watkins,Aston Villa,106.0
+射门数,8,Phil Foden,Manchester City,105.0
+射门数,9,Alejandro Garnacho,Manchester Utd,100.0
+射门数,10,Julián Álvarez,Manchester City,98.0
+每90min射门数,1,Darwin Núñez,Liverpool,4.75
+每90min射门数,2,Erling Haaland,Manchester City,4.27
+每90min射门数,3,Rodrigo Muniz,Fulham,4.12
+每90min射门数,4,Mohamed Salah,Liverpool,4.05
+每90min射门数,5,Michael Olise,Crystal Palace,4.02
+每90min射门数,6,Cole Palmer,2 squads,3.71
+每90min射门数,7,Richarlison,Tottenham Hotspur,3.68
+每90min射门数,8,Eberechi Eze,Crystal Palace,3.64
+每90min射门数,9,Cody Gakpo,Liverpool,3.6
+每90min射门数,10,Alejandro Garnacho,Manchester Utd,3.51
+射正次数,1,Jean-Philippe Mateta,Crystal Palace,63.0
+射正次数,2,Evan Ferguson,Brighton,60.6
+射正次数,3,Callum Wilson,Newcastle United,60.0
+射正次数,4,Jeffrey Schlupp,Crystal Palace,57.9
+射正次数,5,Christopher Nkunku,Chelsea,56.3
+射正次数,6,Rasmus Højlund,Manchester Utd,55.3
+射正次数,7,Alexander Isak,Newcastle United,55.1
+射正次数,8,Ben Brereton,Sheffield United,54.3
+射正次数,9,Chris Wood,Nottingham Forest,54.2
+射正次数,10,Callum Hudson-Odoi,Nottingham Forest,52.6
+射正次数,10,David Datro Fofana,Burnley,52.6
+每90min射正次数,1,Erling Haaland,Manchester City,2.08
+每90min射正次数,2,Darwin Núñez,Liverpool,2.02
+每90min射正次数,3,Mohamed Salah,Liverpool,1.99
+每90min射正次数,4,Alexander Isak,Newcastle United,1.72
+每90min射正次数,5,Cole Palmer,2 squads,1.58
+每90min射正次数,6,Diogo Jota,Liverpool,1.57
+每90min射正次数,7,Rodrigo Muniz,Fulham,1.53
+每90min射正次数,8,Phil Foden,Manchester City,1.51
+每90min射正次数,8,Richarlison,Tottenham Hotspur,1.51
+每90min射正次数,10,Eberechi Eze,Crystal Palace,1.49
+进球/射正,1,Bobby De Cordova-Reid,Fulham,0.75
+进球/射正,2,Elijah Adebayo,Luton Town,0.71
+进球/射正,2,Jáder Durán,Aston Villa,0.71
+进球/射正,4,Hwang Hee-chan,Wolves,0.61
+进球/射正,5,Dara O'Shea,Burnley,0.6
+进球/射正,5,Morgan Rogers,Aston Villa,0.6
+进球/射正,5,Jack Grealish,Manchester City,0.6
+进球/射正,5,Kobbie Mainoo,Manchester Utd,0.6
+进球/射正,9,Tahith Chong,Luton Town,0.57
+进球/射正,9,Idrissa Gana Gueye,Everton,0.57
+传中次数,1,Alfie Doughty,Luton Town,340.0
+传中次数,2,Pascal Groß,Brighton,240.0
+传中次数,3,Dwight McNeil,Everton,229.0
+传中次数,4,Bruno Fernandes,Manchester Utd,225.0
+传中次数,5,Andreas Pereira,Fulham,219.0
+传中次数,6,Kieran Trippier,Newcastle United,214.0
+传中次数,7,Pedro Porro,Tottenham Hotspur,198.0
+传中次数,8,James Ward-Prowse,West Ham United,189.0
+传中次数,9,Andrew Robertson,Liverpool,184.0
+传中次数,10,Morgan Gibbs-White,Nottingham Forest,181.0
+传中次数,10,Bukayo Saka,Arsenal,181.0
+黄牌数,1,Marcos Senesi,Bournemouth,13.0
+黄牌数,1,João Palhinha,Fulham,13.0
+黄牌数,3,Mario Lemina,Wolves,12.0
+黄牌数,3,Anthony Gordon,Newcastle United,12.0
+黄牌数,3,Douglas Luiz,Aston Villa,12.0
+黄牌数,6,James Tarkowski,Everton,11.0
+黄牌数,6,Moisés Caicedo,Chelsea,11.0
+黄牌数,6,Edson Álvarez,West Ham United,11.0
+黄牌数,6,João Gomes,Wolves,11.0
+黄牌数,6,Anel Ahmedhodžić,Sheffield United,11.0
+黄牌数,6,Kai Havertz,Arsenal,11.0
+红牌数,1,Reece James,Chelsea,2.0
+红牌数,1,Oliver McBurnie,Sheffield United,2.0
+红牌数,1,Yves Bissouma,Tottenham Hotspur,2.0
+红牌数,4,Nélson Semedo,Wolves,1.0
+红牌数,4,Cristian Romero,Tottenham Hotspur,1.0
+红牌数,4,Willy Boly,Nottingham Forest,1.0
+红牌数,4,Joe Worrall,Nottingham Forest,1.0
+红牌数,4,Naouirou Ahamada,Crystal Palace,1.0
+红牌数,4,Issa Diop,Fulham,1.0
+红牌数,4,Lorenz Assignon,Burnley,1.0
+红牌数,4,Takehiro Tomiyasu,Arsenal,1.0
+红牌数,4,Raúl Jiménez,Fulham,1.0
+红牌数,4,Ashley Young,Everton,1.0
+红牌数,4,Conor Gallagher,Chelsea,1.0
+红牌数,4,Boubacar Kamara,Aston Villa,1.0
+红牌数,4,Mason Holgate,Sheffield United,1.0
+红牌数,4,Ben Mee,Brentford,1.0
+红牌数,4,Sander Berge,Burnley,1.0
+红牌数,4,Philip Billing,Bournemouth,1.0
+红牌数,4,Malo Gusto,Chelsea,1.0
+红牌数,4,Diogo Dalot,Manchester Utd,1.0
+红牌数,4,Jordan Ayew,Crystal Palace,1.0
+红牌数,4,Mahmoud Dahoud,Brighton,1.0
+红牌数,4,Billy Gilmour,Brighton,1.0
+红牌数,4,Virgil van Dijk,Liverpool,1.0
+红牌数,4,Matheus Nunes,2 squads,1.0
+红牌数,4,Anel Ahmedhodžić,Sheffield United,1.0
+红牌数,4,Lyle Foster,Burnley,1.0
+红牌数,4,Vladimír Coufal,West Ham United,1.0
+红牌数,4,Rhian Brewster,Sheffield United,1.0
+红牌数,4,Anass Zaroury,Burnley,1.0
+红牌数,4,Milos Kerkez,Bournemouth,1.0
+红牌数,4,Jean-Ricner Bellegarde,Wolves,1.0
+红牌数,4,Diogo Jota,Liverpool,1.0
+红牌数,4,Dara O'Shea,Burnley,1.0
+红牌数,4,Connor Roberts,Burnley,1.0
+红牌数,4,Lewis Dunk,Brighton,1.0
+红牌数,4,Nayef Aguerd,West Ham United,1.0
+红牌数,4,Tim Ream,Fulham,1.0
+红牌数,4,Lewis Cook,Bournemouth,1.0
+红牌数,4,Mario Lemina,Wolves,1.0
+红牌数,4,Anthony Gordon,Newcastle United,1.0
+红牌数,4,Calvin Bassey,Fulham,1.0
+红牌数,4,Sergio Reguilón,2 squads,1.0
+红牌数,4,Josh Brownhill,Burnley,1.0
+红牌数,4,Kalvin Phillips,2 squads,1.0
+红牌数,4,Curtis Jones,Liverpool,1.0
+红牌数,4,Ibrahima Konaté,Liverpool,1.0
+红牌数,4,Fabio Vieira,Arsenal,1.0
+红牌数,4,Rodri,Manchester City,1.0
+红牌数,4,Destiny Udogie,Tottenham Hotspur,1.0
+红牌数,4,Alexis Mac Allister,Liverpool,1.0
+红牌数,4,Manuel Akanji,Manchester City,1.0
+红牌数,4,Moussa Niakhate,Nottingham Forest,1.0
+红牌数,4,John McGinn,Aston Villa,1.0
+犯规数,1,Conor Gallagher,Chelsea,83.0
+犯规数,2,João Gomes,Wolves,66.0
+犯规数,3,Luis Díaz,Liverpool,54.0
+犯规数,3,Ryan Yates,Nottingham Forest,54.0
+犯规数,3,Dejan Kulusevski,Tottenham Hotspur,54.0
+犯规数,6,Abdoulaye Doucouré,Everton,53.0
+犯规数,6,Alexis Mac Allister,Liverpool,53.0
+犯规数,8,Justin Kluivert,Bournemouth,52.0
+犯规数,8,João Palhinha,Fulham,52.0
+犯规数,10,Douglas Luiz,Aston Villa,51.0
+犯规数,10,Destiny Udogie,Tottenham Hotspur,51.0
+造犯规数,1,Bruno Guimarães,Newcastle United,108.0
+造犯规数,2,Jordan Ayew,Crystal Palace,93.0
+造犯规数,3,Mohammed Kudus,West Ham United,75.0
+造犯规数,4,James Maddison,Tottenham Hotspur,74.0
+造犯规数,5,John McGinn,Aston Villa,69.0
+造犯规数,5,Bukayo Saka,Arsenal,69.0
+造犯规数,7,Tahith Chong,Luton Town,65.0
+造犯规数,7,Lucas Paquetá,West Ham United,65.0
+造犯规数,9,Ezri Konsa,Aston Villa,64.0
+造犯规数,9,Anthony Gordon,Newcastle United,64.0
+造犯规数,9,Conor Gallagher,Chelsea,64.0
+成功抢断,1,João Palhinha,Fulham,77.0
+成功抢断,2,João Gomes,Wolves,75.0
+成功抢断,3,Vinicius Souza,Sheffield United,73.0
+成功抢断,4,Emerson Palmieri,West Ham United,67.0
+成功抢断,5,Pedro Porro,Tottenham Hotspur,65.0
+成功抢断,6,Tyrick Mitchell,Crystal Palace,59.0
+成功抢断,7,Mario Lemina,Wolves,58.0
+成功抢断,8,Antonee Robinson,Fulham,56.0
+成功抢断,9,Casemiro,Manchester Utd,54.0
+成功抢断,10,Bruno Guimarães,Newcastle United,52.0
+成功抢断,10,Alexis Mac Allister,Liverpool,52.0
+拦截,1,Antonee Robinson,Fulham,81.0
+拦截,2,Lewis Cook,Bournemouth,67.0
+拦截,3,James Tarkowski,Everton,55.0
+拦截,4,Teden Mengi,Luton Town,54.0
+拦截,5,Christian Nørgaard,Brentford,53.0
+拦截,6,Ryan Christie,Bournemouth,51.0
+拦截,7,João Palhinha,Fulham,48.0
+拦截,7,Jarrad Branthwaite,Everton,48.0
+拦截,9,James Garner,Everton,46.0
+拦截,10,Declan Rice,Arsenal,44.0
+最多零封门将,1,David Raya,Arsenal,14.0
+最多零封门将,2,Ederson,Manchester City,11.0
+最多零封门将,3,Bernd Leno,Fulham,10.0
+最多零封门将,3,Jordan Pickford,Everton,10.0
+最多零封门将,5,André Onana,Manchester Utd,9.0
+最多零封门将,6,Neto,Bournemouth,7.0
+最多零封门将,6,Mark Flekken,Brentford,7.0
+最多零封门将,6,Alisson,Liverpool,7.0
+最多零封门将,6,Emiliano Martínez,Aston Villa,7.0
+最多零封门将,10,Sam Johnstone,Crystal Palace,6.0
+最多零封门将,10,Nick Pope,Newcastle United,6.0
+最多零封门将,10,Guglielmo Vicario,Tottenham Hotspur,6.0
+零封率,1,David Raya,Arsenal,43.8
+零封率,2,Nick Pope,Newcastle United,40.0
+零封率,3,Ederson,Manchester City,33.3
+零封率,4,Sam Johnstone,Crystal Palace,30.0
+零封率,5,Bernd Leno,Fulham,26.3
+零封率,5,Jordan Pickford,Everton,26.3
+零封率,7,Alisson,Liverpool,25.0
+零封率,8,André Onana,Manchester Utd,23.7
+零封率,9,Martin Dúbravka,Newcastle United,22.7
+零封率,10,Neto,Bournemouth,21.9
+扑救数,1,André Onana,Manchester Utd,148.0
+扑救数,2,Thomas Kaminski,Luton Town,144.0
+扑救数,3,Alphonse Areola,West Ham United,136.0
+扑救数,4,Bernd Leno,Fulham,134.0
+扑救数,4,José Sá,Wolves,134.0
+扑救数,6,Wes Foderingham,Sheffield United,133.0
+扑救数,7,Jordan Pickford,Everton,121.0
+扑救数,8,Mark Flekken,Brentford,115.0
+扑救数,9,Neto,Bournemouth,112.0
+扑救数,10,Guglielmo Vicario,Tottenham Hotspur,110.0
+扑救成功率,1,André Onana,Manchester Utd,74.5
+扑救成功率,2,Alisson,Liverpool,74.1
+扑救成功率,3,Jordan Pickford,Everton,73.8
+扑救成功率,4,Alphonse Areola,West Ham United,73.6
+扑救成功率,5,Nick Pope,Newcastle United,72.9
+扑救成功率,6,José Sá,Wolves,72.8
+扑救成功率,7,Bart Verbruggen,Brighton,72.2
+扑救成功率,8,Bernd Leno,Fulham,71.7
+扑救成功率,9,Ederson,Manchester City,70.4
+扑救成功率,10,Martin Dúbravka,Newcastle United,69.4
+每90min被进球数,1,David Raya,Arsenal,0.75
+每90min被进球数,2,Ederson,Manchester City,0.87
+每90min被进球数,3,Alisson,Liverpool,1.07
+每90min被进球数,3,Nick Pope,Newcastle United,1.07
+每90min被进球数,5,Bart Verbruggen,Brighton,1.33
+每90min被进球数,6,Jordan Pickford,Everton,1.34
+每90min被进球数,7,Sam Johnstone,Crystal Palace,1.35
+每90min被进球数,8,Emiliano Martínez,Aston Villa,1.43
+每90min被进球数,9,André Onana,Manchester Utd,1.53
+每90min被进球数,10,Robert Sánchez,Chelsea,1.57

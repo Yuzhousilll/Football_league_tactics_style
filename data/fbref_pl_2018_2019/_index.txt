@@ -1,0 +1,48 @@
+Assists	data/fbref_pl_2018_2019/assists.csv
+Assists/90	data/fbref_pl_2018_2019/assists_90.csv
+Clean Sheet Percentage	data/fbref_pl_2018_2019/clean_sheet_percentage.csv
+Clean Sheets	data/fbref_pl_2018_2019/clean_sheets.csv
+Crosses	data/fbref_pl_2018_2019/crosses.csv
+Fouls Committed	data/fbref_pl_2018_2019/fouls_committed.csv
+Fouls Drawn	data/fbref_pl_2018_2019/fouls_drawn.csv
+Goals	data/fbref_pl_2018_2019/goals.csv
+Goals + Assists	data/fbref_pl_2018_2019/goals_assists.csv
+Goals + Assists/90	data/fbref_pl_2018_2019/goals_assists_90.csv
+Goals Against/90	data/fbref_pl_2018_2019/goals_against_90.csv
+Goals/90	data/fbref_pl_2018_2019/goals_90.csv
+Goals/Shot	data/fbref_pl_2018_2019/goals_shot.csv
+Goals/Shot on Target	data/fbref_pl_2018_2019/goals_shot_on_target.csv
+Interceptions	data/fbref_pl_2018_2019/interceptions.csv
+Minutes	data/fbref_pl_2018_2019/minutes.csv
+Non-Penalty Goals	data/fbref_pl_2018_2019/non_penalty_goals.csv
+Non-Penalty Goals + Assists/90	data/fbref_pl_2018_2019/non_penalty_goals_assists_90.csv
+Non-Penalty Goals/90	data/fbref_pl_2018_2019/non_penalty_goals_90.csv
+Own Goals	data/fbref_pl_2018_2019/own_goals.csv
+Penalty Kicks Made	data/fbref_pl_2018_2019/penalty_kicks_made.csv
+Plus/Minus	data/fbref_pl_2018_2019/plus_minus.csv
+Plus/Minus/90	data/fbref_pl_2018_2019/plus_minus_90.csv
+Points per Match	data/fbref_pl_2018_2019/points_per_match.csv
+Red Cards	data/fbref_pl_2018_2019/red_cards.csv
+Save Percentage	data/fbref_pl_2018_2019/save_percentage.csv
+Saves	data/fbref_pl_2018_2019/saves.csv
+Shots Total	data/fbref_pl_2018_2019/shots_total.csv
+Shots Total/90	data/fbref_pl_2018_2019/shots_total_90.csv
+Shots on Target	data/fbref_pl_2018_2019/shots_on_target.csv
+Shots on Target %	data/fbref_pl_2018_2019/shots_on_target.csv
+Shots on target/90	data/fbref_pl_2018_2019/shots_on_target_90.csv
+Substitute Appearances	data/fbref_pl_2018_2019/substitute_appearances.csv
+Tackles Won	data/fbref_pl_2018_2019/tackles_won.csv
+Yellow Cards	data/fbref_pl_2018_2019/yellow_cards.csv
+nations	data/fbref_pl_2018_2019/nations.csv
+results2018-201991_home_away	data/fbref_pl_2018_2019/results2018_201991_home_away.csv
+results2018-201991_overall	data/fbref_pl_2018_2019/results2018_201991_overall.csv
+stats_squads_keeper_against	data/fbref_pl_2018_2019/stats_squads_keeper_against.csv
+stats_squads_keeper_for	data/fbref_pl_2018_2019/stats_squads_keeper_for.csv
+stats_squads_misc_against	data/fbref_pl_2018_2019/stats_squads_misc_against.csv
+stats_squads_misc_for	data/fbref_pl_2018_2019/stats_squads_misc_for.csv
+stats_squads_playing_time_against	data/fbref_pl_2018_2019/stats_squads_playing_time_against.csv
+stats_squads_playing_time_for	data/fbref_pl_2018_2019/stats_squads_playing_time_for.csv
+stats_squads_shooting_against	data/fbref_pl_2018_2019/stats_squads_shooting_against.csv
+stats_squads_shooting_for	data/fbref_pl_2018_2019/stats_squads_shooting_for.csv
+stats_squads_standard_against	data/fbref_pl_2018_2019/stats_squads_standard_against.csv
+stats_squads_standard_for	data/fbref_pl_2018_2019/stats_squads_standard_for.csv
