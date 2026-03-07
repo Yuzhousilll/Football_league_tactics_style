@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 import argparse
 import os
+import re
 from glob import glob
 from typing import List
 
 import pandas as pd
+
+DEFAULT_SEASON_START = "2016-2017"
+DEFAULT_SEASON_END = "2024-2025"
 
 
 def flatten_multiindex_columns(columns: pd.MultiIndex) -> List[str]:
@@ -37,6 +41,21 @@ def read_keeper(path: str) -> pd.DataFrame:
 
 def safe_divide(numerator, denominator):
     return numerator / denominator.replace({0: pd.NA})
+
+
+def season_start_year(season_label: str) -> int:
+    normalized = season_label.replace("_", "-")
+    match = re.match(r"^(\d{4})-\d{4}$", normalized)
+    if not match:
+        raise ValueError(f"Invalid season label: {season_label}")
+    return int(match.group(1))
+
+
+def season_in_range(season_label: str, start: str, end: str) -> bool:
+    year = season_start_year(season_label)
+    start_year = season_start_year(start)
+    end_year = season_start_year(end)
+    return start_year <= year <= end_year
 
 
 def compute_metrics(season_dir: str) -> pd.DataFrame:
@@ -111,12 +130,22 @@ def compute_metrics(season_dir: str) -> pd.DataFrame:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Compute style trend metrics for all seasons.")
+    parser = argparse.ArgumentParser(description="Compute style trend metrics for selected seasons.")
     parser.add_argument("--data-dir", default="data", help="Base data directory (default: data).")
     parser.add_argument(
         "--output",
         default="data/derived/style_metrics_all.csv",
         help="Output CSV path (default: data/derived/style_metrics_all.csv).",
+    )
+    parser.add_argument(
+        "--season-start",
+        default=DEFAULT_SEASON_START,
+        help=f"Start season (default: {DEFAULT_SEASON_START}).",
+    )
+    parser.add_argument(
+        "--season-end",
+        default=DEFAULT_SEASON_END,
+        help=f"End season (default: {DEFAULT_SEASON_END}).",
     )
     args = parser.parse_args()
 
@@ -126,12 +155,15 @@ def main():
 
     all_metrics = []
     for season_dir in season_dirs:
+        season_label = os.path.basename(season_dir).replace("fbref_pl_", "")
+        if not season_in_range(season_label, args.season_start, args.season_end):
+            continue
         season_metrics = compute_metrics(season_dir)
         if not season_metrics.empty:
             all_metrics.append(season_metrics)
 
     if not all_metrics:
-        raise SystemExit("No metrics computed. Check source CSV files.")
+        raise SystemExit("No metrics computed. Check season range and source CSV files.")
 
     output_df = pd.concat(all_metrics, ignore_index=True)
     output_dir = os.path.dirname(args.output)

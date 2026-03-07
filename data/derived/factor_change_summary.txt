@@ -1,0 +1,153 @@
+================================================================================
+球队风格因子变化分析总结
+Team Style Factor Change Analysis Summary
+================================================================================
+
+
+================================================================================
+因子1: 进攻质量
+================================================================================
+
+【变化幅度最大的5支球队】
+            Squad  Change_Range  Num_Seasons
+         Brighton      2.753359            8
+Tottenham Hotspur      2.327190            9
+          Arsenal      2.200420            9
+   Leicester City      1.876325            8
+   Crystal Palace      1.597423            9
+
+【波动性最大的5支球队】
+            Squad  Volatility  Num_Seasons
+         Brighton    0.916440            8
+          Arsenal    0.700906            9
+Tottenham Hotspur    0.620107            9
+   Leicester City    0.611689            8
+ Newcastle United    0.577796            8
+
+【上升趋势最显著的5支球队】
+            Squad  Trend_Slope  Num_Seasons
+Nottingham Forest     0.547656            3
+         Brighton     0.351022            8
+ Newcastle United     0.183068            8
+   Crystal Palace     0.167205            9
+      Aston Villa     0.164874            6
+
+【下降趋势最显著的5支球队】
+               Squad  Trend_Slope  Num_Seasons
+        Leeds United    -0.389087            3
+   Tottenham Hotspur    -0.131970            9
+         Southampton    -0.099156            8
+West Bromwich Albion    -0.088317            3
+             Watford    -0.044895            5
+
+
+================================================================================
+因子2: 防守积极性
+================================================================================
+
+【变化幅度最大的5支球队】
+          Squad  Change_Range  Num_Seasons
+    Southampton      3.970730            8
+Manchester City      3.742275            9
+ Manchester Utd      3.653744            9
+        Burnley      3.398743            7
+        Arsenal      3.360895            9
+
+【波动性最大的5支球队】
+               Squad  Volatility  Num_Seasons
+     Manchester City    1.118140            9
+         Southampton    1.061194            8
+      Manchester Utd    1.049464            9
+             Arsenal    1.045139            9
+West Bromwich Albion    0.979506            3
+
+【上升趋势最显著的5支球队】
+            Squad  Trend_Slope  Num_Seasons
+Nottingham Forest     0.296501            3
+           Fulham     0.008947            5
+      Bournemouth    -0.049539            7
+        Brentford    -0.060290            4
+     Leeds United    -0.112288            3
+
+【下降趋势最显著的5支球队】
+               Squad  Trend_Slope  Num_Seasons
+West Bromwich Albion    -0.574149            3
+     Manchester City    -0.396276            9
+    Sheffield United    -0.396020            3
+         Southampton    -0.393830            8
+             Burnley    -0.342291            7
+
+
+================================================================================
+因子3: 侵略性
+================================================================================
+
+【变化幅度最大的5支球队】
+           Squad  Change_Range  Num_Seasons
+Sheffield United      4.328291            3
+         Arsenal      2.986784            9
+         Burnley      2.903400            7
+       Liverpool      2.697891            9
+ West Ham United      2.642416            9
+
+【波动性最大的5支球队】
+           Squad  Volatility  Num_Seasons
+Sheffield United    1.790037            3
+         Burnley    1.043630            7
+ West Ham United    0.902280            9
+       Liverpool    0.891017            9
+         Arsenal    0.864183            9
+
+【上升趋势最显著的5支球队】
+               Squad  Trend_Slope  Num_Seasons
+    Sheffield United     1.045530            3
+West Bromwich Albion     0.405890            3
+              Wolves     0.269631            7
+            Brighton     0.254584            8
+        Leeds United     0.199534            3
+
+【下降趋势最显著的5支球队】
+          Squad  Trend_Slope  Num_Seasons
+         Fulham    -0.259312            5
+        Arsenal    -0.189766            9
+        Watford    -0.106320            5
+Manchester City    -0.043429            9
+        Everton    -0.019350            9
+
+
+================================================================================
+因子4: 成熟度
+================================================================================
+
+【变化幅度最大的5支球队】
+         Squad  Change_Range  Num_Seasons
+Manchester Utd      2.287768            9
+   Southampton      2.215619            8
+       Chelsea      2.139917            9
+        Fulham      2.084856            5
+       Arsenal      2.006788            9
+
+【波动性最大的5支球队】
+         Squad  Volatility  Num_Seasons
+  Leeds United    0.807468            3
+       Arsenal    0.776039            9
+        Fulham    0.775535            5
+Manchester Utd    0.728227            9
+      Brighton    0.713699            8
+
+【上升趋势最显著的5支球队】
+          Squad  Trend_Slope  Num_Seasons
+   Leeds United     0.986418            3
+        Arsenal     0.222637            9
+       Brighton     0.205607            8
+Manchester City     0.106027            9
+        Burnley     0.105820            7
+
+【下降趋势最显著的5支球队】
+               Squad  Trend_Slope  Num_Seasons
+   Nottingham Forest    -0.539686            3
+West Bromwich Albion    -0.223800            3
+    Newcastle United    -0.188647            8
+           Liverpool    -0.172013            9
+              Wolves    -0.116742            7
+
