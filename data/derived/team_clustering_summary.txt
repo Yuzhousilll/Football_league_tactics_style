@@ -1,5 +1,5 @@
 Team Clustering Analysis Summary
-Input: /workspaces/graduation_thesis/data/derived/team_factor_scores_2016_2025.csv
+Input: data/derived/team_factor_scores_2016_2025.csv
 Number of clusters: 4
 Total teams analyzed: 180
 Factor columns: Factor1, Factor2, Factor3, Factor4
@@ -7,14 +7,14 @@ Factor columns: Factor1, Factor2, Factor3, Factor4
 Cluster Statistics:
           Factor1   Factor2   Factor3   Factor4  Count
 Cluster                                               
-0       -0.334318 -0.364671  0.191837  0.585600     57
-1       -0.435721  1.455913  0.213242  0.102845     29
-2        1.302983 -0.194385 -0.113152 -0.071306     44
-3       -0.512784 -0.257646 -0.242801 -0.664485     50
+0        1.423796 -0.107135  0.240936 -0.107037     37
+1       -0.368911  1.158855  0.285600  0.464571     34
+2       -0.536170 -0.156749  0.168210 -0.745370     49
+3       -0.231085 -0.462606 -0.447789  0.411468     60
 
 Output files:
-  - Cluster assignments: /workspaces/graduation_thesis/data/derived/team_clusters_assigned.csv
-  - Cluster statistics: /workspaces/graduation_thesis/data/derived/team_cluster_statistics.csv
+  - Cluster assignments: data/derived/team_clusters_assigned.csv
+  - Cluster statistics: data/derived/team_cluster_statistics.csv
   - Scatter plots: cluster_scatter_*.png
   - Heatmap: cluster_centers_heatmap.png
   - Distribution: cluster_distribution.png

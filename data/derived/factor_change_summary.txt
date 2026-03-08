@@ -10,35 +10,35 @@ Team Style Factor Change Analysis Summary
 
 【变化幅度最大的5支球队】
             Squad  Change_Range  Num_Seasons
-         Brighton      2.753359            8
-Tottenham Hotspur      2.327190            9
-          Arsenal      2.200420            9
-   Leicester City      1.876325            8
-   Crystal Palace      1.597423            9
+         Brighton      2.715579            8
+Tottenham Hotspur      2.296882            9
+          Arsenal      2.228201            9
+   Leicester City      1.906414            8
+   Crystal Palace      1.572635            9
 
 【波动性最大的5支球队】
             Squad  Volatility  Num_Seasons
-         Brighton    0.916440            8
-          Arsenal    0.700906            9
-Tottenham Hotspur    0.620107            9
-   Leicester City    0.611689            8
- Newcastle United    0.577796            8
+         Brighton    0.895260            8
+          Arsenal    0.699817            9
+   Leicester City    0.615083            8
+Tottenham Hotspur    0.614284            9
+ Newcastle United    0.580041            8
 
 【上升趋势最显著的5支球队】
             Squad  Trend_Slope  Num_Seasons
-Nottingham Forest     0.547656            3
-         Brighton     0.351022            8
- Newcastle United     0.183068            8
-   Crystal Palace     0.167205            9
-      Aston Villa     0.164874            6
+Nottingham Forest     0.541663            3
+         Brighton     0.339152            8
+ Newcastle United     0.185044            8
+      Aston Villa     0.174947            6
+   Crystal Palace     0.162454            9
 
 【下降趋势最显著的5支球队】
                Squad  Trend_Slope  Num_Seasons
-        Leeds United    -0.389087            3
-   Tottenham Hotspur    -0.131970            9
-         Southampton    -0.099156            8
-West Bromwich Albion    -0.088317            3
-             Watford    -0.044895            5
+        Leeds United    -0.397642            3
+   Tottenham Hotspur    -0.136487            9
+West Bromwich Albion    -0.119471            3
+         Southampton    -0.106474            8
+      Leicester City    -0.045944            8
 
 
 ================================================================================
@@ -47,35 +47,35 @@ West Bromwich Albion    -0.088317            3
 
 【变化幅度最大的5支球队】
           Squad  Change_Range  Num_Seasons
-    Southampton      3.970730            8
-Manchester City      3.742275            9
- Manchester Utd      3.653744            9
-        Burnley      3.398743            7
-        Arsenal      3.360895            9
+    Southampton      3.831278            8
+Manchester City      3.678544            9
+ Manchester Utd      3.505945            9
+        Arsenal      3.221205            9
+        Burnley      3.130423            7
 
 【波动性最大的5支球队】
                Squad  Volatility  Num_Seasons
-     Manchester City    1.118140            9
-         Southampton    1.061194            8
-      Manchester Utd    1.049464            9
-             Arsenal    1.045139            9
-West Bromwich Albion    0.979506            3
+     Manchester City    1.115947            9
+      Manchester Utd    1.039675            9
+             Arsenal    1.033629            9
+         Southampton    1.032762            8
+West Bromwich Albion    0.883262            3
 
 【上升趋势最显著的5支球队】
             Squad  Trend_Slope  Num_Seasons
-Nottingham Forest     0.296501            3
-           Fulham     0.008947            5
-      Bournemouth    -0.049539            7
-        Brentford    -0.060290            4
-     Leeds United    -0.112288            3
+Nottingham Forest     0.308680            3
+     Leeds United     0.005272            3
+           Fulham    -0.021140            5
+      Bournemouth    -0.028535            7
+        Brentford    -0.036032            4
 
 【下降趋势最显著的5支球队】
                Squad  Trend_Slope  Num_Seasons
-West Bromwich Albion    -0.574149            3
-     Manchester City    -0.396276            9
-    Sheffield United    -0.396020            3
-         Southampton    -0.393830            8
-             Burnley    -0.342291            7
+West Bromwich Albion    -0.516054            3
+     Manchester City    -0.392933            9
+         Southampton    -0.377000            8
+             Watford    -0.318911            5
+             Burnley    -0.317380            7
 
 
 ================================================================================
@@ -84,35 +84,35 @@ West Bromwich Albion    -0.574149            3
 
 【变化幅度最大的5支球队】
            Squad  Change_Range  Num_Seasons
-Sheffield United      4.328291            3
-         Arsenal      2.986784            9
-         Burnley      2.903400            7
-       Liverpool      2.697891            9
- West Ham United      2.642416            9
+Sheffield United      4.623153            3
+         Arsenal      3.227192            9
+ West Ham United      2.954151            9
+       Liverpool      2.943628            9
+         Burnley      2.770536            7
 
 【波动性最大的5支球队】
            Squad  Volatility  Num_Seasons
-Sheffield United    1.790037            3
-         Burnley    1.043630            7
- West Ham United    0.902280            9
-       Liverpool    0.891017            9
-         Arsenal    0.864183            9
+Sheffield United    1.910564            3
+         Burnley    0.971243            7
+ West Ham United    0.946007            9
+         Arsenal    0.919669            9
+       Liverpool    0.886200            9
 
 【上升趋势最显著的5支球队】
-               Squad  Trend_Slope  Num_Seasons
-    Sheffield United     1.045530            3
-West Bromwich Albion     0.405890            3
-              Wolves     0.269631            7
-            Brighton     0.254584            8
-        Leeds United     0.199534            3
+          Squad  Trend_Slope  Num_Seasons
+        Arsenal     0.214974            9
+         Fulham     0.156730            5
+        Watford     0.088962            5
+Manchester City     0.013999            9
+        Everton    -0.022954            9
 
 【下降趋势最显著的5支球队】
-          Squad  Trend_Slope  Num_Seasons
-         Fulham    -0.259312            5
-        Arsenal    -0.189766            9
-        Watford    -0.106320            5
-Manchester City    -0.043429            9
-        Everton    -0.019350            9
+               Squad  Trend_Slope  Num_Seasons
+    Sheffield United    -1.115288            3
+West Bromwich Albion    -0.380943            3
+              Wolves    -0.360851            7
+           Brentford    -0.285667            4
+            Brighton    -0.234264            8
 
 
 ================================================================================
@@ -121,33 +121,33 @@ Manchester City    -0.043429            9
 
 【变化幅度最大的5支球队】
          Squad  Change_Range  Num_Seasons
-Manchester Utd      2.287768            9
-   Southampton      2.215619            8
-       Chelsea      2.139917            9
-        Fulham      2.084856            5
-       Arsenal      2.006788            9
+Manchester Utd      2.567910            9
+  Leeds United      2.237768            3
+   Aston Villa      2.056455            6
+       Chelsea      2.034849            9
+      Brighton      2.028381            8
 
 【波动性最大的5支球队】
          Squad  Volatility  Num_Seasons
-  Leeds United    0.807468            3
-       Arsenal    0.776039            9
-        Fulham    0.775535            5
-Manchester Utd    0.728227            9
-      Brighton    0.713699            8
+  Leeds United    0.914800            3
+Manchester Utd    0.734530            9
+       Arsenal    0.712709            9
+      Brighton    0.691783            8
+   Aston Villa    0.670253            6
 
 【上升趋势最显著的5支球队】
-          Squad  Trend_Slope  Num_Seasons
-   Leeds United     0.986418            3
-        Arsenal     0.222637            9
-       Brighton     0.205607            8
-Manchester City     0.106027            9
-        Burnley     0.105820            7
+           Squad  Trend_Slope  Num_Seasons
+    Leeds United     1.118884            3
+        Brighton     0.243127            8
+Sheffield United     0.224722            3
+     Aston Villa     0.196021            6
+         Arsenal     0.184355            9
 
 【下降趋势最显著的5支球队】
                Squad  Trend_Slope  Num_Seasons
-   Nottingham Forest    -0.539686            3
-West Bromwich Albion    -0.223800            3
-    Newcastle United    -0.188647            8
-           Liverpool    -0.172013            9
-              Wolves    -0.116742            7
+   Nottingham Forest    -0.600725            3
+West Bromwich Albion    -0.297690            3
+           Liverpool    -0.120679            9
+         Bournemouth    -0.092683            7
+    Newcastle United    -0.075274            8
 

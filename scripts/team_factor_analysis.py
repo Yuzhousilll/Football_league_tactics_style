@@ -27,7 +27,6 @@ FACTOR_VARIABLES = [
     "shots_on_target_against_per_match",
     "save_pct",
     "fouls_drawn_per_match",
-    "avg_age",
 ]
 
 
