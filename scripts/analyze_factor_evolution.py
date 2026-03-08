@@ -39,14 +39,29 @@ def load_factor_scores(filepath):
     # 提取赛季起始年份用于排序
     df['season_year'] = df['Season'].str.split('_').str[0].astype(int)
     df = df.sort_values(['Squad', 'season_year'])
-    return df
+    
+    # 自动检测因子列
+    factor_cols = [col for col in df.columns if col.startswith('Factor')]
+    return df, factor_cols
 
 def plot_top6_factor_evolution(df, output_dir):
     """绘制传统六强在各因子上的演变趋势"""
-    fig, axes = plt.subplots(2, 2, figsize=(16, 12))
-    fig.suptitle('传统六强风格因子演变趋势 (2016-2025)', fontsize=16, fontweight='bold')
+    n_factors = len(factor_cols)
     
-    factors = ['Factor1', 'Factor2', 'Factor3', 'Factor4']
+    # 根据因子数量调整subplot
+    if n_factors == 2:
+        fig, axes = plt.subplots(1, 2, figsize=(16, 6))
+        axes = axes.reshape(1, 2)
+    elif n_factors == 3:
+        fig, axes = plt.subplots(1, 3, figsize=(18, 6))
+        axes = axes.reshape(1, 3)
+    else:  # 4个因子
+        fig, axes = plt.subplots(2, 2, figsize=(16, 12))
+    
+    fig.suptitle(f'传统六强风格因子演变趋势 (2016-2025) - {n_factors}个因子', 
+                 fontsize=16, fontweight='bold')
+    
+    factors = factor_cols
     colors = plt.cm.Set2(range(len(TOP_6_TEAMS)))
     
     for idx, factor in enumerate(factors):
@@ -300,8 +315,9 @@ def main():
     
     # 加载数据
     print(f"\n📂 加载数据: {args.input}")
-    df = load_factor_scores(args.input)
+        df, factor_cols = load_factor_scores(args.input)
     print(f"✓ 已加载 {len(df)} 条记录，{df['Squad'].nunique()} 支球队")
+        print(f"✓ 检测到 {len(factor_cols)} 个因子: {', '.join(factor_cols)}")
     
     # 创建输出目录
     output_dir = Path(args.output_dir)
@@ -309,7 +325,7 @@ def main():
     
     # 1. 传统六强因子演变
     print("\n📊 绘制传统六强因子演变趋势...")
-    plot_top6_factor_evolution(df, output_dir)
+        plot_top6_factor_evolution(df, factor_cols, output_dir)
     
     # 2. 联赛整体趋势
     print("\n📊 绘制联赛整体因子趋势...")

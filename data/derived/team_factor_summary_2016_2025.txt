@@ -1,8 +1,0 @@
-Team Factor Analysis Summary
-Input: style_metrics_all.csv
-Season range: 2016-2017 to 2024-2025
-Rows used: 180
-Variables: shots_on_target_per_match, goals_per_sot, cross_share_of_touches, offsides_per_match, tackles_won_per_match, interceptions_per_match, shots_on_target_against_per_match, save_pct, fouls_drawn_per_match
-Factors extracted: 4
-Loadings output: data/derived/team_factor_loadings_2016_2025.csv
-Scores output: data/derived/team_factor_scores_2016_2025.csv

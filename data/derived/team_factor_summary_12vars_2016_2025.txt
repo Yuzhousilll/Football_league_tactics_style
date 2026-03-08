@@ -1,0 +1,11 @@
+Formal Team Factor Analysis Summary (12 Variables)
+Input: style_metrics_all.csv
+Season range: 2016-2017 to 2024-2025
+Rows used: 180
+Variables: shots_on_target_per_match, goals_per_match, goals_per_sot, cross_share_of_touches, penalties_won_per_match, offsides_to_shots_ratio, goals_against_per_match, clean_sheet_pct, tackles_won_per_match, interceptions_per_match, shots_on_target_against_per_match, players_used
+Factors extracted: 3
+Approx explained variance (%): 70.94
+Loadings output: data/derived/team_factor_loadings_12vars_2016_2025.csv
+Scores output: data/derived/team_factor_scores_12vars_2016_2025.csv
+Scree plot: data/derived/scree_plot_12vars.png
+Loadings heatmap: data/derived/factor_loadings_heatmap_12vars.png

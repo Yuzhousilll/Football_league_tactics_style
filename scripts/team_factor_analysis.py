@@ -21,12 +21,9 @@ FACTOR_VARIABLES = [
     "shots_on_target_per_match",
     "goals_per_sot",
     "cross_share_of_touches",
-    "offsides_per_match",
     "tackles_won_per_match",
     "interceptions_per_match",
     "shots_on_target_against_per_match",
-    "save_pct",
-    "fouls_drawn_per_match",
 ]
 
 
@@ -115,9 +112,10 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     season_tag = f"{season_start_year(args.season_start)}_{season_start_year(args.season_end)+1}"
-    loadings_path = output_dir / f"team_factor_loadings_{season_tag}.csv"
-    scores_path = output_dir / f"team_factor_scores_{season_tag}.csv"
-    summary_path = output_dir / f"team_factor_summary_{season_tag}.txt"
+    vars_tag = "6vars"  # 标记使用6个变量的版本
+    loadings_path = output_dir / f"team_factor_loadings_{vars_tag}_{season_tag}.csv"
+    scores_path = output_dir / f"team_factor_scores_{vars_tag}_{season_tag}.csv"
+    summary_path = output_dir / f"team_factor_summary_{vars_tag}_{season_tag}.txt"
 
     loadings.to_csv(loadings_path, index=False)
     scores.to_csv(scores_path, index=False)
