@@ -1,0 +1,11 @@
+英文变量名,中文解释与定义
+shots_on_target_per_match,每场射正次数——球队在每场比赛中直接指向球门的射门次数
+goals_per_sot,射正转化率——进球数除以射正次数，反映进攻效率
+cross_share_of_touches,传中占比——传中次数占球队总触球次数的比例，反映进攻组织方式
+offsides_per_match,每场越位次数——球队在每场比赛中的越位次数，反映防线位置高度
+tackles_won_per_match,每场铲球成功次数——球队在每场比赛中成功铲球/抢断的次数
+interceptions_per_match,每场拦截次数——球队在每场比赛中的拦截次数，反映防守主动性
+shots_on_target_against_per_match,每场被射正次数——对手在每场比赛中的射正次数，反映防守质量
+save_pct,扑救成功率——门将扑救成功次数占被射正次数的比例，反映门神表现
+fouls_drawn_per_match,每场获得犯规次数——球队在每场比赛中获得的对手犯规次数
+avg_age,平均年龄——球队上场球员平均年龄，反映阵容结构与经验
