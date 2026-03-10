@@ -198,7 +198,7 @@ def main() -> None:
     X_scaled = scaler.fit_transform(X)
 
     kmeans = KMeans(n_clusters=args.n_clusters, random_state=42, n_init=20)
-    df['Cluster'] = kmeans.fit_predict(X_scaled)
+    df['Cluster'] = kmeans.fit_predict(X_scaled) + 1
 
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)

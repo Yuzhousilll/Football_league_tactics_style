@@ -212,6 +212,8 @@ def main() -> None:
 
     plot_top6_factors(df_scores, factor_cols, top6_plot)
     trend_df = plot_league_factor_trends(df_scores, factor_cols, league_plot)
+    # Cluster renumbering: 0->1, 1->2, 2->3, 3->4
+    df_cluster['Cluster'] = df_cluster['Cluster'] + 1
     cluster_share_df = plot_cluster_shares(df_cluster, cluster_plot)
 
     trend_df.to_csv(trend_csv, index=False)

@@ -7,15 +7,15 @@ Factor columns: Factor1, Factor2, Factor3
 Cluster Statistics:
           Factor1   Factor2   Factor3  Count
 Cluster                                     
-0       -0.745214  0.908010 -0.672288     40
-1        1.372020  0.445542 -0.143685     40
-2       -0.268348 -0.152930  1.081376     54
-3       -0.230031 -0.997475 -0.559900     46
+1       -0.745214  0.908010 -0.672288     40
+2        1.372020  0.445542 -0.143685     40
+3       -0.268348 -0.152930  1.081376     54
+4       -0.230031 -0.997475 -0.559900     46
 
 Output files:
-  - Cluster assignments: data/derived/team_clusters_assigned_12vars.csv
-  - Cluster statistics: data/derived/team_cluster_statistics_12vars.csv
-  - Scatter plots: cluster_scatter_f1_f2_12vars.png, cluster_scatter_f1_f3_12vars.png
-  - Heatmap: cluster_centers_heatmap_12vars.png
-  - Distribution: cluster_distribution_12vars.png
-  - Evolution: top_teams_cluster_evolution_12vars.png
+  - Cluster assignments: data/derived/team_clusters_assigned.csv
+  - Cluster statistics: data/derived/team_cluster_statistics.csv
+  - Scatter plots: cluster_scatter_*.png
+  - Heatmap: cluster_centers_heatmap.png
+  - Distribution: cluster_distribution.png
+  - Evolution: top_teams_cluster_evolution.png
