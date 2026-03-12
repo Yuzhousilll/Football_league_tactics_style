@@ -1,0 +1,14 @@
+Action-Based Competitiveness PCA Summary
+Observations: 180
+Seasons: 2016-2024
+Variables: shots_per_match, shots_on_target_per_match, assists_per_match, cross_volume_per_match, penalties_won_per_match, tackles_won_per_match, interceptions_per_match, fouls_drawn_per_match
+Selected components: 3
+Explained variance ratio: 0.4200, 0.1900, 0.1425
+Cumulative explained variance: 0.7526
+KMO: 0.7023
+Bartlett chi2: 883.0321
+Bartlett dof: 28
+Bartlett p-value: 0.00000000
+Dataset output: chapter3_competitiveness/competitiveness_dataset.csv
+Loadings output: chapter3_competitiveness/competitiveness_pca_loadings.csv
+Scores output: chapter3_competitiveness/competitiveness_pca_scores.csv
