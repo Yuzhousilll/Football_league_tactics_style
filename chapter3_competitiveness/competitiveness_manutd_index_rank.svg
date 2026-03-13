@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="550.0" y="32" text-anchor="middle" font-size="24" font-weight="bold">Manchester Utd Competitiveness Index and Rank</text>
+<line x1="90" y1="60.0" x2="970" y2="60.0" stroke="#e5e7eb"/><text x="78" y="64.0" text-anchor="end" font-size="12" fill="#1f77b4">1.52</text><line x1="90" y1="158.0" x2="970" y2="158.0" stroke="#e5e7eb"/><text x="78" y="162.0" text-anchor="end" font-size="12" fill="#1f77b4">1.18</text><line x1="90" y1="256.0" x2="970" y2="256.0" stroke="#e5e7eb"/><text x="78" y="260.0" text-anchor="end" font-size="12" fill="#1f77b4">0.83</text><line x1="90" y1="354.0" x2="970" y2="354.0" stroke="#e5e7eb"/><text x="78" y="358.0" text-anchor="end" font-size="12" fill="#1f77b4">0.49</text><line x1="90" y1="452.0" x2="970" y2="452.0" stroke="#e5e7eb"/><text x="78" y="456.0" text-anchor="end" font-size="12" fill="#1f77b4">0.14</text><line x1="90" y1="550.0" x2="970" y2="550.0" stroke="#e5e7eb"/><text x="78" y="554.0" text-anchor="end" font-size="12" fill="#1f77b4">-0.20</text><text x="980" y="64.0" font-size="12" fill="#d62728">3</text><text x="980" y="118.4" font-size="12" fill="#d62728">4</text><text x="980" y="172.9" font-size="12" fill="#d62728">5</text><text x="980" y="227.3" font-size="12" fill="#d62728">6</text><text x="980" y="281.8" font-size="12" fill="#d62728">7</text><text x="980" y="336.2" font-size="12" fill="#d62728">8</text><text x="980" y="390.7" font-size="12" fill="#d62728">9</text><text x="980" y="445.1" font-size="12" fill="#d62728">10</text><text x="980" y="499.6" font-size="12" fill="#d62728">11</text><text x="980" y="554.0" font-size="12" fill="#d62728">12</text>
+<line x1="90" y1="60" x2="90" y2="550" stroke="#1f77b4"/>
+<line x1="970" y1="60" x2="970" y2="550" stroke="#d62728"/>
+<line x1="90" y1="550" x2="970" y2="550" stroke="#333"/>
+<line x1="90.0" y1="550" x2="90.0" y2="556" stroke="#333"/><text x="90.0" y="574" text-anchor="middle" font-size="12">2016</text><line x1="200.0" y1="550" x2="200.0" y2="556" stroke="#333"/><text x="200.0" y="574" text-anchor="middle" font-size="12">2017</text><line x1="310.0" y1="550" x2="310.0" y2="556" stroke="#333"/><text x="310.0" y="574" text-anchor="middle" font-size="12">2018</text><line x1="420.0" y1="550" x2="420.0" y2="556" stroke="#333"/><text x="420.0" y="574" text-anchor="middle" font-size="12">2019</text><line x1="530.0" y1="550" x2="530.0" y2="556" stroke="#333"/><text x="530.0" y="574" text-anchor="middle" font-size="12">2020</text><line x1="640.0" y1="550" x2="640.0" y2="556" stroke="#333"/><text x="640.0" y="574" text-anchor="middle" font-size="12">2021</text><line x1="750.0" y1="550" x2="750.0" y2="556" stroke="#333"/><text x="750.0" y="574" text-anchor="middle" font-size="12">2022</text><line x1="860.0" y1="550" x2="860.0" y2="556" stroke="#333"/><text x="860.0" y="574" text-anchor="middle" font-size="12">2023</text><line x1="970.0" y1="550" x2="970.0" y2="556" stroke="#333"/><text x="970.0" y="574" text-anchor="middle" font-size="12">2024</text>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2.5" points="90.0,116.5 200.0,376.8 310.0,205.1 420.0,155.8 530.0,241.0 640.0,493.5 750.0,454.1 860.0,419.6 970.0,465.5" />
+<circle cx="90.0" cy="116.5" r="3.2" fill="#1f77b4" />
+<circle cx="200.0" cy="376.8" r="3.2" fill="#1f77b4" />
+<circle cx="310.0" cy="205.1" r="3.2" fill="#1f77b4" />
+<circle cx="420.0" cy="155.8" r="3.2" fill="#1f77b4" />
+<circle cx="530.0" cy="241.0" r="3.2" fill="#1f77b4" />
+<circle cx="640.0" cy="493.5" r="3.2" fill="#1f77b4" />
+<circle cx="750.0" cy="454.1" r="3.2" fill="#1f77b4" />
+<circle cx="860.0" cy="419.6" r="3.2" fill="#1f77b4" />
+<circle cx="970.0" cy="465.5" r="3.2" fill="#1f77b4" />
+<polyline fill="none" stroke="#d62728" stroke-width="2.5" points="90.0,168.9 200.0,223.3 310.0,114.4 420.0,114.4 530.0,60.0 640.0,277.8 750.0,277.8 860.0,441.1 970.0,550.0" />
+<circle cx="90.0" cy="168.9" r="3.2" fill="#d62728" />
+<circle cx="200.0" cy="223.3" r="3.2" fill="#d62728" />
+<circle cx="310.0" cy="114.4" r="3.2" fill="#d62728" />
+<circle cx="420.0" cy="114.4" r="3.2" fill="#d62728" />
+<circle cx="530.0" cy="60.0" r="3.2" fill="#d62728" />
+<circle cx="640.0" cy="277.8" r="3.2" fill="#d62728" />
+<circle cx="750.0" cy="277.8" r="3.2" fill="#d62728" />
+<circle cx="860.0" cy="441.1" r="3.2" fill="#d62728" />
+<circle cx="970.0" cy="550.0" r="3.2" fill="#d62728" />
+<line x1="980" y1="70" x2="1010" y2="70" stroke="#1f77b4" stroke-width="3"/>
+<text x="1018" y="75" font-size="13">competitiveness_index</text>
+<line x1="980" y1="94" x2="1010" y2="94" stroke="#d62728" stroke-width="3"/>
+<text x="1018" y="99" font-size="13">season_rank_by_index</text>
+<text x="550.0" y="604" text-anchor="middle" font-size="13">Season (start year)</text>
+<text x="20" y="310.0" transform="rotate(-90,20,310.0)" text-anchor="middle" font-size="13" fill="#1f77b4">Competitiveness Index</text>
+<text x="1082" y="310.0" transform="rotate(90,1082,310.0)" text-anchor="middle" font-size="13" fill="#d62728">Season Rank (lower is better)</text>
+</svg>
