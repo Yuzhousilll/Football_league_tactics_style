@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="550.0" y="32" text-anchor="middle" font-size="24" font-weight="bold">Manchester Utd PCA Component Trends</text>
+<line x1="90" y1="60.0" x2="980" y2="60.0" stroke="#e5e7eb"/><text x="78" y="64.0" text-anchor="end" font-size="12" fill="#555">4.86</text><line x1="90" y1="158.0" x2="980" y2="158.0" stroke="#e5e7eb"/><text x="78" y="162.0" text-anchor="end" font-size="12" fill="#555">3.42</text><line x1="90" y1="256.0" x2="980" y2="256.0" stroke="#e5e7eb"/><text x="78" y="260.0" text-anchor="end" font-size="12" fill="#555">1.98</text><line x1="90" y1="354.0" x2="980" y2="354.0" stroke="#e5e7eb"/><text x="78" y="358.0" text-anchor="end" font-size="12" fill="#555">0.54</text><line x1="90" y1="452.0" x2="980" y2="452.0" stroke="#e5e7eb"/><text x="78" y="456.0" text-anchor="end" font-size="12" fill="#555">-0.90</text><line x1="90" y1="550.0" x2="980" y2="550.0" stroke="#e5e7eb"/><text x="78" y="554.0" text-anchor="end" font-size="12" fill="#555">-2.34</text>
+<line x1="90" y1="60" x2="90" y2="550" stroke="#333"/>
+<line x1="90" y1="550" x2="980" y2="550" stroke="#333"/>
+<line x1="90.0" y1="550" x2="90.0" y2="556" stroke="#333"/><text x="90.0" y="574" text-anchor="middle" font-size="12">2016</text><line x1="201.2" y1="550" x2="201.2" y2="556" stroke="#333"/><text x="201.2" y="574" text-anchor="middle" font-size="12">2017</text><line x1="312.5" y1="550" x2="312.5" y2="556" stroke="#333"/><text x="312.5" y="574" text-anchor="middle" font-size="12">2018</text><line x1="423.8" y1="550" x2="423.8" y2="556" stroke="#333"/><text x="423.8" y="574" text-anchor="middle" font-size="12">2019</text><line x1="535.0" y1="550" x2="535.0" y2="556" stroke="#333"/><text x="535.0" y="574" text-anchor="middle" font-size="12">2020</text><line x1="646.2" y1="550" x2="646.2" y2="556" stroke="#333"/><text x="646.2" y="574" text-anchor="middle" font-size="12">2021</text><line x1="757.5" y1="550" x2="757.5" y2="556" stroke="#333"/><text x="757.5" y="574" text-anchor="middle" font-size="12">2022</text><line x1="868.8" y1="550" x2="868.8" y2="556" stroke="#333"/><text x="868.8" y="574" text-anchor="middle" font-size="12">2023</text><line x1="980.0" y1="550" x2="980.0" y2="556" stroke="#333"/><text x="980.0" y="574" text-anchor="middle" font-size="12">2024</text>
+<line x1="90" y1="390.6" x2="980" y2="390.6" stroke="#9ca3af" stroke-dasharray="4,4"/>
+<polyline fill="none" stroke="#1f77b4" stroke-width="2.5" points="90.0,365.1 201.2,362.7 312.5,263.3 423.8,254.2 535.0,265.2 646.2,338.5 757.5,327.8 868.8,333.9 980.0,405.4" /><circle cx="90.0" cy="365.1" r="3.2" fill="#1f77b4" />
+<circle cx="201.2" cy="362.7" r="3.2" fill="#1f77b4" />
+<circle cx="312.5" cy="263.3" r="3.2" fill="#1f77b4" />
+<circle cx="423.8" cy="254.2" r="3.2" fill="#1f77b4" />
+<circle cx="535.0" cy="265.2" r="3.2" fill="#1f77b4" />
+<circle cx="646.2" cy="338.5" r="3.2" fill="#1f77b4" />
+<circle cx="757.5" cy="327.8" r="3.2" fill="#1f77b4" />
+<circle cx="868.8" cy="333.9" r="3.2" fill="#1f77b4" />
+<circle cx="980.0" cy="405.4" r="3.2" fill="#1f77b4" /><polyline fill="none" stroke="#d62728" stroke-width="2.5" points="90.0,130.0 201.2,337.1 312.5,438.5 423.8,438.2 535.0,450.8 646.2,439.0 757.5,440.2 868.8,435.7 980.0,352.9" /><circle cx="90.0" cy="130.0" r="3.2" fill="#d62728" />
+<circle cx="201.2" cy="337.1" r="3.2" fill="#d62728" />
+<circle cx="312.5" cy="438.5" r="3.2" fill="#d62728" />
+<circle cx="423.8" cy="438.2" r="3.2" fill="#d62728" />
+<circle cx="535.0" cy="450.8" r="3.2" fill="#d62728" />
+<circle cx="646.2" cy="439.0" r="3.2" fill="#d62728" />
+<circle cx="757.5" cy="440.2" r="3.2" fill="#d62728" />
+<circle cx="868.8" cy="435.7" r="3.2" fill="#d62728" />
+<circle cx="980.0" cy="352.9" r="3.2" fill="#d62728" /><polyline fill="none" stroke="#2ca02c" stroke-width="2.5" points="90.0,338.2 201.2,397.2 312.5,338.6 423.8,303.8 535.0,362.0 646.2,480.0 757.5,460.1 868.8,404.7 980.0,362.3" /><circle cx="90.0" cy="338.2" r="3.2" fill="#2ca02c" />
+<circle cx="201.2" cy="397.2" r="3.2" fill="#2ca02c" />
+<circle cx="312.5" cy="338.6" r="3.2" fill="#2ca02c" />
+<circle cx="423.8" cy="303.8" r="3.2" fill="#2ca02c" />
+<circle cx="535.0" cy="362.0" r="3.2" fill="#2ca02c" />
+<circle cx="646.2" cy="480.0" r="3.2" fill="#2ca02c" />
+<circle cx="757.5" cy="460.1" r="3.2" fill="#2ca02c" />
+<circle cx="868.8" cy="404.7" r="3.2" fill="#2ca02c" />
+<circle cx="980.0" cy="362.3" r="3.2" fill="#2ca02c" />
+<line x1="990" y1="70" x2="1020" y2="70" stroke="#1f77b4" stroke-width="3"/><text x="1028" y="75" font-size="13">PC1</text><line x1="990" y1="94" x2="1020" y2="94" stroke="#d62728" stroke-width="3"/><text x="1028" y="99" font-size="13">PC2</text><line x1="990" y1="118" x2="1020" y2="118" stroke="#2ca02c" stroke-width="3"/><text x="1028" y="123" font-size="13">PC3</text>
+<text x="550.0" y="604" text-anchor="middle" font-size="13">Season (start year)</text>
+<text x="20" y="310.0" transform="rotate(-90,20,310.0)" text-anchor="middle" font-size="13">Principal Component Score</text>
+</svg>

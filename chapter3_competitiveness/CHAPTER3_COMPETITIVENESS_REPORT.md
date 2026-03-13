@@ -140,7 +140,9 @@ KMO值超过0.7，说明变量之间具有较好的共同因子结构；Bartlett
 7. `competitiveness_pc1_pc2_scatter.png`
 8. `competitiveness_top6_evolution.png`
 9. `competitiveness_season_distribution.png`
-10. `CHAPTER3_COMPETITIVENESS_REPORT.md`
+10. `competitiveness_manutd_pca_trends.svg`
+11. `competitiveness_manutd_index_rank.svg`
+12. `CHAPTER3_COMPETITIVENESS_REPORT.md`
 
 其中：
 
@@ -148,7 +150,9 @@ KMO值超过0.7，说明变量之间具有较好的共同因子结构；Bartlett
 - `competitiveness_loadings_heatmap.png` 适合用于解释各主成分的动作含义；
 - `competitiveness_pc1_pc2_scatter.png` 可展示样本在主要动作维度上的分布差异；
 - `competitiveness_top6_evolution.png` 可直接用于展示传统六强的动作型竞争力演变；
-- `competitiveness_season_distribution.png` 可辅助描述不同赛季球队整体竞争力分布的变化。
+- `competitiveness_season_distribution.png` 可辅助描述不同赛季球队整体竞争力分布的变化；
+- `competitiveness_manutd_pca_trends.svg` 用于展示曼联在PC1/PC2/PC3三个主成分上的赛季变化；
+- `competitiveness_manutd_index_rank.svg` 用于展示曼联综合竞争力指数与赛季内排名的联动变化。
 
 ## 3.5 本章小结
 
