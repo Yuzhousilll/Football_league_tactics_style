@@ -125,11 +125,12 @@ def plot_pc_components(df: pd.DataFrame, output_path: Path) -> None:
 
     x = np.arange(len(df))
     width = 0.24
-    ax.bar(x - width, df["PC1"], width=width, color=STYLE_COLORS[0])
-    ax.bar(x, df["PC2"], width=width, color=STYLE_COLORS[1])
-    ax.bar(x + width, df["PC3"], width=width, color=STYLE_COLORS[2])
+    ax.bar(x - width, df["PC1"], width=width, color=STYLE_COLORS[0], label="PC1")
+    ax.bar(x, df["PC2"], width=width, color=STYLE_COLORS[1], label="PC2")
+    ax.bar(x + width, df["PC3"], width=width, color=STYLE_COLORS[2], label="PC3")
 
     ax.axhline(0, color="black", linewidth=1)
+    ax.legend(loc="best", frameon=True)
     ax.set_xticks(x)
     ax.set_xticklabels(df["season_label"], rotation=35, ha="right")
     ax.set_xlabel("Season")
