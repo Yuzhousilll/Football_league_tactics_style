@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480">
+<rect width="800" height="480" fill="white"/>
+<text x="400" y="30" font-size="16" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">哈兰德每90分钟效率指标 Haaland Per-90 Efficiency Metrics</text>
+<line x1="70" y1="70" x2="70" y2="410" stroke="black" stroke-width="1.5"/>
+<line x1="70" y1="410" x2="770" y2="410" stroke="black" stroke-width="1.5"/>
+<line x1="65" y1="410.0" x2="70" y2="410.0" stroke="black" stroke-width="1"/>
+<text x="62" y="414.0" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">0.0</text>
+<line x1="70" y1="410.0" x2="770" y2="410.0" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="370.2" x2="70" y2="370.2" stroke="black" stroke-width="1"/>
+<text x="62" y="374.1873536299766" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">0.5</text>
+<line x1="70" y1="370.2" x2="770" y2="370.2" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="330.4" x2="70" y2="330.4" stroke="black" stroke-width="1"/>
+<text x="62" y="334.37470725995314" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">1.0</text>
+<line x1="70" y1="330.4" x2="770" y2="330.4" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="290.6" x2="70" y2="290.6" stroke="black" stroke-width="1"/>
+<text x="62" y="294.56206088992974" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">1.5</text>
+<line x1="70" y1="290.6" x2="770" y2="290.6" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="250.7" x2="70" y2="250.7" stroke="black" stroke-width="1"/>
+<text x="62" y="254.7494145199063" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">2.0</text>
+<line x1="70" y1="250.7" x2="770" y2="250.7" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="210.9" x2="70" y2="210.9" stroke="black" stroke-width="1"/>
+<text x="62" y="214.93676814988288" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">2.5</text>
+<line x1="70" y1="210.9" x2="770" y2="210.9" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="171.1" x2="70" y2="171.1" stroke="black" stroke-width="1"/>
+<text x="62" y="175.12412177985945" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">3.0</text>
+<line x1="70" y1="171.1" x2="770" y2="171.1" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="131.3" x2="70" y2="131.3" stroke="black" stroke-width="1"/>
+<text x="62" y="135.31147540983602" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">3.5</text>
+<line x1="70" y1="131.3" x2="770" y2="131.3" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="91.5" x2="70" y2="91.5" stroke="black" stroke-width="1"/>
+<text x="62" y="95.49882903981262" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">4.0</text>
+<line x1="70" y1="91.5" x2="770" y2="91.5" stroke="#ddd" stroke-width="0.8"/>
+<rect x="96.2" y="316.8" width="40.8" height="93.2" fill="#1f77b4" opacity="0.85"/>
+<text x="116.66666666666666" y="313.8384074941452" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="normal">1.17</text>
+<rect x="137.1" y="334.4" width="40.8" height="75.6" fill="#ff7f0e" opacity="0.85"/>
+<text x="157.49999999999997" y="331.3559718969555" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="normal">0.95</text>
+<rect x="177.9" y="352.7" width="40.8" height="57.3" fill="#2ca02c" opacity="0.85"/>
+<text x="198.33333333333331" y="349.6697892271663" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#2ca02c" font-weight="normal">0.72</text>
+<text x="157.5" y="430" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">进球/90min</text>
+<rect x="271.2" y="254.7" width="40.8" height="155.3" fill="#1f77b4" opacity="0.85"/>
+<text x="291.6666666666667" y="251.73067915690865" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="normal">1.95</text>
+<rect x="312.1" y="244.4" width="40.8" height="165.6" fill="#ff7f0e" opacity="0.85"/>
+<text x="332.5" y="241.37939110070255" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="normal">2.08</text>
+<rect x="352.9" y="253.1" width="40.8" height="156.9" fill="#2ca02c" opacity="0.85"/>
+<text x="373.3333333333333" y="250.13817330210773" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#2ca02c" font-weight="normal">1.97</text>
+<text x="332.5" y="430" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">射正/90min</text>
+<rect x="446.2" y="91.5" width="40.8" height="318.5" fill="#1f77b4" opacity="0.85"/>
+<text x="466.6666666666667" y="88.49882903981262" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="normal">4.00</text>
+<rect x="487.1" y="70.0" width="40.8" height="340.0" fill="#ff7f0e" opacity="0.85"/>
+<text x="507.5" y="67.0" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="normal">4.27</text>
+<rect x="527.9" y="124.1" width="40.8" height="285.9" fill="#2ca02c" opacity="0.85"/>
+<text x="548.3333333333333" y="121.14519906323181" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#2ca02c" font-weight="normal">3.59</text>
+<text x="507.5" y="430" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">射门/90min</text>
+<rect x="621.2" y="296.1" width="40.8" height="113.9" fill="#1f77b4" opacity="0.85"/>
+<text x="641.6666666666666" y="293.135831381733" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="normal">1.43</text>
+<rect x="662.1" y="320.0" width="40.8" height="90.0" fill="#ff7f0e" opacity="0.85"/>
+<text x="682.5" y="317.02341920374704" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="normal">1.13</text>
+<rect x="702.9" y="344.7" width="40.8" height="65.3" fill="#2ca02c" opacity="0.85"/>
+<text x="723.3333333333333" y="341.7072599531616" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#2ca02c" font-weight="normal">0.82</text>
+<text x="682.5" y="430" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">进球+助攻/90min</text>
+<rect x="80" y="452" width="12" height="12" fill="#1f77b4"/>
+<text x="96" y="462" font-size="10" text-anchor="start" font-family="Arial,sans-serif" fill="black" font-weight="normal">2022-2023</text>
+<rect x="180" y="452" width="12" height="12" fill="#ff7f0e"/>
+<text x="196" y="462" font-size="10" text-anchor="start" font-family="Arial,sans-serif" fill="black" font-weight="normal">2023-2024</text>
+<rect x="280" y="452" width="12" height="12" fill="#2ca02c"/>
+<text x="296" y="462" font-size="10" text-anchor="start" font-family="Arial,sans-serif" fill="black" font-weight="normal">2024-2025</text>
+</svg>
