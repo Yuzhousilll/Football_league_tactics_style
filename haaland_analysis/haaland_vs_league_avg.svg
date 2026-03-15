@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480">
+<rect width="800" height="480" fill="white"/>
+<text x="400" y="30" font-size="16" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">哈兰德 vs 联赛平均（入榜球员） Haaland vs League Average</text>
+<line x1="70" y1="70" x2="70" y2="410" stroke="black" stroke-width="1.5"/>
+<line x1="70" y1="410" x2="770" y2="410" stroke="black" stroke-width="1.5"/>
+<line x1="65" y1="410.0" x2="70" y2="410.0" stroke="black" stroke-width="1"/>
+<text x="62" y="414.0" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">0.0</text>
+<line x1="70" y1="410.0" x2="770" y2="410.0" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="395.0" x2="70" y2="395.0" stroke="black" stroke-width="1"/>
+<text x="62" y="399.0428917076032" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">0.2</text>
+<line x1="70" y1="395.0" x2="770" y2="395.0" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="380.1" x2="70" y2="380.1" stroke="black" stroke-width="1"/>
+<text x="62" y="384.0857834152064" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">0.4</text>
+<line x1="70" y1="380.1" x2="770" y2="380.1" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="365.1" x2="70" y2="365.1" stroke="black" stroke-width="1"/>
+<text x="62" y="369.12867512280957" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">0.6</text>
+<line x1="70" y1="365.1" x2="770" y2="365.1" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="350.2" x2="70" y2="350.2" stroke="black" stroke-width="1"/>
+<text x="62" y="354.17156683041276" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">0.8</text>
+<line x1="70" y1="350.2" x2="770" y2="350.2" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="335.2" x2="70" y2="335.2" stroke="black" stroke-width="1"/>
+<text x="62" y="339.21445853801595" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">1.0</text>
+<line x1="70" y1="335.2" x2="770" y2="335.2" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="320.3" x2="70" y2="320.3" stroke="black" stroke-width="1"/>
+<text x="62" y="324.25735024561914" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">1.2</text>
+<line x1="70" y1="320.3" x2="770" y2="320.3" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="305.3" x2="70" y2="305.3" stroke="black" stroke-width="1"/>
+<text x="62" y="309.3002419532223" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">1.4</text>
+<line x1="70" y1="305.3" x2="770" y2="305.3" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="290.3" x2="70" y2="290.3" stroke="black" stroke-width="1"/>
+<text x="62" y="294.3431336608256" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">1.6</text>
+<line x1="70" y1="290.3" x2="770" y2="290.3" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="275.4" x2="70" y2="275.4" stroke="black" stroke-width="1"/>
+<text x="62" y="279.38602536842876" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">1.8</text>
+<line x1="70" y1="275.4" x2="770" y2="275.4" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="260.4" x2="70" y2="260.4" stroke="black" stroke-width="1"/>
+<text x="62" y="264.42891707603195" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">2.0</text>
+<line x1="70" y1="260.4" x2="770" y2="260.4" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="245.5" x2="70" y2="245.5" stroke="black" stroke-width="1"/>
+<text x="62" y="249.47180878363514" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">2.2</text>
+<line x1="70" y1="245.5" x2="770" y2="245.5" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="230.5" x2="70" y2="230.5" stroke="black" stroke-width="1"/>
+<text x="62" y="234.51470049123833" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">2.4</text>
+<line x1="70" y1="230.5" x2="770" y2="230.5" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="215.6" x2="70" y2="215.6" stroke="black" stroke-width="1"/>
+<text x="62" y="219.55759219884155" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">2.6</text>
+<line x1="70" y1="215.6" x2="770" y2="215.6" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="200.6" x2="70" y2="200.6" stroke="black" stroke-width="1"/>
+<text x="62" y="204.6004839064447" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">2.8</text>
+<line x1="70" y1="200.6" x2="770" y2="200.6" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="185.6" x2="70" y2="185.6" stroke="black" stroke-width="1"/>
+<text x="62" y="189.64337561404795" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">3.0</text>
+<line x1="70" y1="185.6" x2="770" y2="185.6" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="170.7" x2="70" y2="170.7" stroke="black" stroke-width="1"/>
+<text x="62" y="174.68626732165112" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">3.2</text>
+<line x1="70" y1="170.7" x2="770" y2="170.7" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="155.7" x2="70" y2="155.7" stroke="black" stroke-width="1"/>
+<text x="62" y="159.7291590292543" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">3.4</text>
+<line x1="70" y1="155.7" x2="770" y2="155.7" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="140.8" x2="70" y2="140.8" stroke="black" stroke-width="1"/>
+<text x="62" y="144.77205073685752" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">3.6</text>
+<line x1="70" y1="140.8" x2="770" y2="140.8" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="125.8" x2="70" y2="125.8" stroke="black" stroke-width="1"/>
+<text x="62" y="129.8149424444607" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">3.8</text>
+<line x1="70" y1="125.8" x2="770" y2="125.8" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="110.9" x2="70" y2="110.9" stroke="black" stroke-width="1"/>
+<text x="62" y="114.8578341520639" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">4.0</text>
+<line x1="70" y1="110.9" x2="770" y2="110.9" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="95.9" x2="70" y2="95.9" stroke="black" stroke-width="1"/>
+<text x="62" y="99.90072585966709" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">4.2</text>
+<line x1="70" y1="95.9" x2="770" y2="95.9" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="80.9" x2="70" y2="80.9" stroke="black" stroke-width="1"/>
+<text x="62" y="84.94361756727028" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">4.4</text>
+<line x1="70" y1="80.9" x2="770" y2="80.9" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="66.0" x2="70" y2="66.0" stroke="black" stroke-width="1"/>
+<text x="62" y="69.98650927487347" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">4.6</text>
+<line x1="70" y1="66.0" x2="770" y2="66.0" stroke="#ddd" stroke-width="0.8"/>
+<rect x="101.5" y="339.2" width="56.0" height="70.8" fill="#1f77b4" opacity="0.9"/>
+<rect x="161.5" y="359.0" width="56.0" height="51.0" fill="#ff7f0e" opacity="0.9"/>
+<text x="129.5" y="336.2030207493218" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="bold">0.95</text>
+<text x="189.5" y="355.9962607229269" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="bold">0.68</text>
+<text x="157.5" y="428" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">进球/90</text>
+<rect x="276.5" y="114.3" width="56.0" height="295.7" fill="#1f77b4" opacity="0.9"/>
+<rect x="336.5" y="129.3" width="56.0" height="280.7" fill="#ff7f0e" opacity="0.9"/>
+<text x="304.5" y="111.3478260869565" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="bold">3.95</text>
+<text x="364.5" y="126.32986289317398" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="bold">3.75</text>
+<text x="332.5" y="428" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">射门/90</text>
+<rect x="451.5" y="260.4" width="56.0" height="149.6" fill="#1f77b4" opacity="0.9"/>
+<rect x="511.5" y="288.9" width="56.0" height="121.1" fill="#ff7f0e" opacity="0.9"/>
+<text x="479.5" y="257.42891707603195" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="bold">2.00</text>
+<text x="539.5" y="285.9471368868685" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="bold">1.62</text>
+<text x="507.5" y="428" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">射正/90</text>
+<rect x="626.5" y="392.1" width="56.0" height="17.9" fill="#1f77b4" opacity="0.9"/>
+<rect x="686.5" y="391.9" width="56.0" height="18.1" fill="#ff7f0e" opacity="0.9"/>
+<text x="654.5" y="389.05147004912385" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="bold">0.24</text>
+<text x="714.5" y="388.8769704523792" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="bold">0.24</text>
+<text x="682.5" y="428" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">每射门进球率</text>
+<rect x="80" y="452" width="12" height="12" fill="#1f77b4"/>
+<text x="96" y="462" font-size="10" text-anchor="start" font-family="Arial,sans-serif" fill="black" font-weight="normal">哈兰德（3季均值）</text>
+<rect x="340" y="452" width="12" height="12" fill="#ff7f0e"/>
+<text x="356" y="462" font-size="10" text-anchor="start" font-family="Arial,sans-serif" fill="black" font-weight="normal">联赛均值（同指标入榜球员）</text>
+</svg>

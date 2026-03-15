@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="480">
+<rect width="800" height="480" fill="white"/>
+<text x="400" y="30" font-size="16" font-weight="bold" text-anchor="middle" font-family="Arial,sans-serif">曼城进攻与成绩：哈兰德加盟前后对比 Man City Before vs After Haaland</text>
+<line x1="70" y1="70" x2="70" y2="410" stroke="black" stroke-width="1.5"/>
+<line x1="70" y1="410" x2="770" y2="410" stroke="black" stroke-width="1.5"/>
+<line x1="65" y1="410.0" x2="70" y2="410.0" stroke="black" stroke-width="1"/>
+<text x="62" y="414.0" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">0</text>
+<line x1="70" y1="410.0" x2="770" y2="410.0" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="379.7" x2="70" y2="379.7" stroke="black" stroke-width="1"/>
+<text x="62" y="383.6969696969697" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">10</text>
+<line x1="70" y1="379.7" x2="770" y2="379.7" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="349.4" x2="70" y2="349.4" stroke="black" stroke-width="1"/>
+<text x="62" y="353.3939393939394" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">20</text>
+<line x1="70" y1="349.4" x2="770" y2="349.4" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="319.1" x2="70" y2="319.1" stroke="black" stroke-width="1"/>
+<text x="62" y="323.09090909090907" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">30</text>
+<line x1="70" y1="319.1" x2="770" y2="319.1" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="288.8" x2="70" y2="288.8" stroke="black" stroke-width="1"/>
+<text x="62" y="292.78787878787875" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">40</text>
+<line x1="70" y1="288.8" x2="770" y2="288.8" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="258.5" x2="70" y2="258.5" stroke="black" stroke-width="1"/>
+<text x="62" y="262.4848484848485" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">50</text>
+<line x1="70" y1="258.5" x2="770" y2="258.5" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="228.2" x2="70" y2="228.2" stroke="black" stroke-width="1"/>
+<text x="62" y="232.18181818181816" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">60</text>
+<line x1="70" y1="228.2" x2="770" y2="228.2" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="197.9" x2="70" y2="197.9" stroke="black" stroke-width="1"/>
+<text x="62" y="201.87878787878788" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">70</text>
+<line x1="70" y1="197.9" x2="770" y2="197.9" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="167.6" x2="70" y2="167.6" stroke="black" stroke-width="1"/>
+<text x="62" y="171.57575757575756" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">80</text>
+<line x1="70" y1="167.6" x2="770" y2="167.6" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="137.3" x2="70" y2="137.3" stroke="black" stroke-width="1"/>
+<text x="62" y="141.27272727272725" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">90</text>
+<line x1="70" y1="137.3" x2="770" y2="137.3" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="107.0" x2="70" y2="107.0" stroke="black" stroke-width="1"/>
+<text x="62" y="110.969696969697" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">100</text>
+<line x1="70" y1="107.0" x2="770" y2="107.0" stroke="#ddd" stroke-width="0.8"/>
+<line x1="65" y1="76.7" x2="70" y2="76.7" stroke="black" stroke-width="1"/>
+<text x="62" y="80.66666666666669" font-size="10" text-anchor="end" font-family="Arial,sans-serif" fill="black" font-weight="normal">110</text>
+<line x1="70" y1="76.7" x2="770" y2="76.7" stroke="#ddd" stroke-width="0.8"/>
+<rect x="87.5" y="100.9" width="37.3" height="309.1" fill="#7f7f7f" opacity="0.9"/>
+<rect x="128.8" y="164.5" width="37.3" height="245.5" fill="#c7c7c7" opacity="0.9"/>
+<text x="106.16666666666667" y="97.90909090909093" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#7f7f7f" font-weight="normal">102</text>
+<text x="147.5" y="161.54545454545453" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#c7c7c7" font-weight="normal">81</text>
+<text x="124.83333333333334" y="426" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">2019-2020</text>
+<text x="124.83333333333334" y="440" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#444" font-weight="normal">Rk 2</text>
+<rect x="204.2" y="158.5" width="37.3" height="251.5" fill="#7f7f7f" opacity="0.9"/>
+<rect x="245.5" y="149.4" width="37.3" height="260.6" fill="#c7c7c7" opacity="0.9"/>
+<text x="222.83333333333334" y="155.4848484848485" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#7f7f7f" font-weight="normal">83</text>
+<text x="264.1666666666667" y="146.39393939393938" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#c7c7c7" font-weight="normal">86</text>
+<text x="241.50000000000003" y="426" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">2020-2021</text>
+<text x="241.50000000000003" y="440" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#444" font-weight="normal">Rk 1</text>
+<rect x="320.8" y="110.0" width="37.3" height="300.0" fill="#7f7f7f" opacity="0.9"/>
+<rect x="362.2" y="128.2" width="37.3" height="281.8" fill="#c7c7c7" opacity="0.9"/>
+<text x="339.50000000000006" y="107.0" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#7f7f7f" font-weight="normal">99</text>
+<text x="380.83333333333337" y="125.18181818181819" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#c7c7c7" font-weight="normal">93</text>
+<text x="358.1666666666667" y="426" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">2021-2022</text>
+<text x="358.1666666666667" y="440" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#444" font-weight="normal">Rk 1</text>
+<rect x="437.5" y="125.2" width="37.3" height="284.8" fill="#1f77b4" opacity="0.9"/>
+<rect x="478.8" y="140.3" width="37.3" height="269.7" fill="#ff7f0e" opacity="0.9"/>
+<text x="456.1666666666667" y="122.15151515151518" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="normal">94</text>
+<text x="497.5" y="137.3030303030303" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="normal">89</text>
+<text x="474.8333333333333" y="426" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">2022-2023</text>
+<text x="474.8333333333333" y="440" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#444" font-weight="normal">Rk 1</text>
+<rect x="554.2" y="119.1" width="37.3" height="290.9" fill="#1f77b4" opacity="0.9"/>
+<rect x="595.5" y="134.2" width="37.3" height="275.8" fill="#ff7f0e" opacity="0.9"/>
+<text x="572.8333333333334" y="116.09090909090912" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="normal">96</text>
+<text x="614.1666666666667" y="131.24242424242425" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="normal">91</text>
+<text x="591.5000000000001" y="426" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">2023-2024</text>
+<text x="591.5000000000001" y="440" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#444" font-weight="normal">Rk 1</text>
+<rect x="670.8" y="191.8" width="37.3" height="218.2" fill="#1f77b4" opacity="0.9"/>
+<rect x="712.2" y="194.8" width="37.3" height="215.2" fill="#ff7f0e" opacity="0.9"/>
+<text x="689.5" y="188.8181818181818" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="normal">72</text>
+<text x="730.8333333333334" y="191.84848484848484" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#ff7f0e" font-weight="normal">71</text>
+<text x="708.1666666666667" y="426" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="black" font-weight="normal">2024-2025</text>
+<text x="708.1666666666667" y="440" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" fill="#444" font-weight="normal">Rk 3</text>
+<line x1="420.0" y1="70" x2="420.0" y2="444" stroke="#999" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="245.0" y="60" font-size="10" text-anchor="middle" font-family="Arial,sans-serif" fill="#555" font-weight="bold">哈兰德加盟前</text>
+<text x="595.0" y="60" font-size="10" text-anchor="middle" font-family="Arial,sans-serif" fill="#1f77b4" font-weight="bold">哈兰德加盟后</text>
+<rect x="80" y="452" width="12" height="12" fill="#7f7f7f"/>
+<text x="96" y="462" font-size="9" text-anchor="start" font-family="Arial,sans-serif" fill="black" font-weight="normal">进球 GF（前）</text>
+<rect x="250" y="452" width="12" height="12" fill="#c7c7c7"/>
+<text x="266" y="462" font-size="9" text-anchor="start" font-family="Arial,sans-serif" fill="black" font-weight="normal">积分 Pts（前）</text>
+<rect x="420" y="452" width="12" height="12" fill="#1f77b4"/>
+<text x="436" y="462" font-size="9" text-anchor="start" font-family="Arial,sans-serif" fill="black" font-weight="normal">进球 GF（后）</text>
+<rect x="590" y="452" width="12" height="12" fill="#ff7f0e"/>
+<text x="606" y="462" font-size="9" text-anchor="start" font-family="Arial,sans-serif" fill="black" font-weight="normal">积分 Pts（后）</text>
+</svg>

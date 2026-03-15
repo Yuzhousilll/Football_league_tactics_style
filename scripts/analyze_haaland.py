@@ -6,6 +6,8 @@ Outputs:
   haaland_analysis/haaland_season_stats.svg      – key metrics across seasons
   haaland_analysis/haaland_vs_top_scorers.svg    – Haaland vs season top scorers
   haaland_analysis/haaland_mancity_contribution.svg – share of Man City goals
+  haaland_analysis/haaland_pre_mancity_context.svg  – Man City pre-Haaland context
+  haaland_analysis/haaland_vs_league_avg.svg        – Haaland vs league average
   haaland_analysis/HAALAND_ANALYSIS_REPORT.md    – written analysis
 """
 
@@ -29,6 +31,12 @@ SEASONS = [
     ("2024-2025", "fbref_pl_2024_2025"),
 ]
 
+PRE_HAALAND_CITY_SEASONS = [
+    ("2019-2020", "fbref_pl_2019_2020"),
+    ("2020-2021", "fbref_pl_2020_2021"),
+    ("2021-2022", "fbref_pl_2021_2022"),
+]
+
 # (column_key, csv_filename)
 PLAYER_METRICS = [
     ("goals", "goals.csv"),
@@ -49,6 +57,13 @@ PLAYER_METRICS = [
     ("plus_minus", "plus_minus.csv"),
     ("plus_minus_90", "plus_minus_90.csv"),
     ("points_per_match", "points_per_match.csv"),
+]
+
+LEAGUE_AVG_METRICS = [
+    "goals_90",
+    "shots_total_90",
+    "shots_on_target_90",
+    "goals_shot",
 ]
 
 PLAYER_NAME = "Erling Haaland"
@@ -89,6 +104,18 @@ def _find_player(rows: list[dict], player: str) -> float | None:
     return None
 
 
+def _avg_value(rows: list[dict]) -> float | None:
+    vals: list[float] = []
+    for r in rows:
+        try:
+            vals.append(float(r["value"]))
+        except (ValueError, TypeError, KeyError):
+            continue
+    if not vals:
+        return None
+    return round(sum(vals) / len(vals), 3)
+
+
 def _read_results_overall(path: Path) -> dict | None:
     """Return the Manchester City row from a results-overall CSV."""
     if not path.exists():
@@ -107,6 +134,8 @@ def extract_haaland_season(season_label: str, season_dir: Path) -> dict:
     for key, filename in PLAYER_METRICS:
         rows = _read_leaderboard(season_dir / filename)
         record[key] = _find_player(rows, PLAYER_NAME)
+        if key in LEAGUE_AVG_METRICS:
+            record[f"league_avg_{key}"] = _avg_value(rows)
 
     # Man City team stats from results table
     candidates = sorted(season_dir.glob("results*_overall.csv"))
@@ -147,6 +176,45 @@ def extract_haaland_season(season_label: str, season_dir: Path) -> dict:
     return record
 
 
+def _parse_top_scorer_goals(raw: str) -> float | None:
+    if not raw:
+        return None
+    m = re.search(r"(\d+(?:\.\d+)?)\s*$", raw)
+    if not m:
+        return None
+    return _safe_float(m.group(1))
+
+
+def _parse_top_scorer_name(raw: str) -> str:
+    if not raw:
+        return ""
+    return re.split(r"\s*[•·]\s*", raw)[0].strip()
+
+
+def extract_city_season(season_label: str, season_dir: Path) -> dict:
+    """Collect Man City attacking output and standings in one season."""
+    record: dict = {"season": season_label}
+    candidates = sorted(season_dir.glob("results*_overall.csv"))
+    city_row: dict | None = None
+    if candidates:
+        city_row = _read_results_overall(candidates[0])
+    if city_row:
+        record["city_rank"] = _safe_int(city_row.get("Rk"))
+        record["city_pts"] = _safe_float(city_row.get("Pts"))
+        record["city_goals"] = _safe_float(city_row.get("GF"))
+        record["city_wins"] = _safe_float(city_row.get("W"))
+        record["city_top_scorer_raw"] = city_row.get("Top Team Scorer", "")
+        record["city_top_scorer_goals"] = _parse_top_scorer_goals(record["city_top_scorer_raw"])
+    else:
+        record["city_rank"] = None
+        record["city_pts"] = None
+        record["city_goals"] = None
+        record["city_wins"] = None
+        record["city_top_scorer_raw"] = ""
+        record["city_top_scorer_goals"] = None
+    return record
+
+
 def _safe_float(v) -> float | None:
     try:
         return float(v)
@@ -159,6 +227,14 @@ def _safe_int(v) -> int | None:
         return int(v)
     except (TypeError, ValueError):
         return None
+
+
+def _safe_ratio(numerator: float | None, denominator: float | None, digits: int = 2) -> float | None:
+    if numerator is None or denominator is None:
+        return None
+    if abs(denominator) <= 1e-9:
+        return None
+    return round(numerator / denominator, digits)
 
 
 # ---------------------------------------------------------------------------
@@ -174,6 +250,16 @@ def build_haaland_dataset() -> list[dict]:
             continue
         rec = extract_haaland_season(label, season_dir)
         records.append(rec)
+    return records
+
+
+def build_pre_haaland_city_dataset() -> list[dict]:
+    records = []
+    for label, dirname in PRE_HAALAND_CITY_SEASONS:
+        season_dir = DATA_ROOT / dirname
+        if not season_dir.exists():
+            continue
+        records.append(extract_city_season(label, season_dir))
     return records
 
 
@@ -542,6 +628,140 @@ def chart_per90_metrics(records: list[dict], path: Path) -> None:
     path.write_text(svg, encoding="utf-8")
 
 
+def chart_pre_mancity_context(pre_records: list[dict], post_records: list[dict], path: Path) -> None:
+    all_records = pre_records + post_records
+    if not all_records:
+        return
+
+    x0 = MARGIN["left"]
+    x1 = W - MARGIN["right"]
+    y0 = MARGIN["top"] + 10
+    y1 = H - MARGIN["bottom"]
+    n = len(all_records)
+
+    goals_vals = [r.get("city_goals") or 0 for r in all_records]
+    pts_vals = [r.get("city_pts") or 0 for r in all_records]
+    vmax = max(goals_vals + pts_vals + [1]) * 1.1
+
+    group_w = (x1 - x0) / n
+    bar_w = group_w * 0.32
+    pre_n = len(pre_records)
+
+    svg = _svg_header("曼城进攻与成绩：哈兰德加盟前后对比 Man City Before vs After Haaland")
+    svg += _svg_axes(x0, y0, x1, y1)
+
+    for tick in range(0, int(vmax) + 1, 10):
+        if tick > vmax:
+            break
+        ty = _scale(tick, 0, vmax, y1, y0)
+        svg += f'<line x1="{x0-5}" y1="{ty:.1f}" x2="{x0}" y2="{ty:.1f}" stroke="black" stroke-width="1"/>\n'
+        svg += _svg_text(x0 - 8, ty + 4, str(tick), anchor="end", size=10)
+        svg += f'<line x1="{x0}" y1="{ty:.1f}" x2="{x1}" y2="{ty:.1f}" stroke="#ddd" stroke-width="0.8"/>\n'
+
+    for i, rec in enumerate(all_records):
+        gx = x0 + i * group_w + group_w * 0.15
+        in_pre = i < pre_n
+        goals_color = "#7f7f7f" if in_pre else "#1f77b4"
+        pts_color = "#c7c7c7" if in_pre else "#ff7f0e"
+
+        gv = rec.get("city_goals") or 0
+        gy = _scale(gv, 0, vmax, y1, y0)
+        svg += (
+            f'<rect x="{gx:.1f}" y="{gy:.1f}" width="{bar_w:.1f}" height="{y1-gy:.1f}" '
+            f'fill="{goals_color}" opacity="0.9"/>\n'
+        )
+
+        pv = rec.get("city_pts") or 0
+        py = _scale(pv, 0, vmax, y1, y0)
+        px = gx + bar_w + 4
+        svg += (
+            f'<rect x="{px:.1f}" y="{py:.1f}" width="{bar_w:.1f}" height="{y1-py:.1f}" '
+            f'fill="{pts_color}" opacity="0.9"/>\n'
+        )
+
+        svg += _svg_text(gx + bar_w / 2, gy - 3, _fmt(rec.get("city_goals")), size=9, color=goals_color)
+        svg += _svg_text(px + bar_w / 2, py - 3, _fmt(rec.get("city_pts")), size=9, color=pts_color)
+        svg += _svg_text(gx + bar_w, y1 + 16, rec["season"], size=9)
+        svg += _svg_text(gx + bar_w, y1 + 30, f"Rk {_fmt(rec.get('city_rank'))}", size=9, color="#444")
+
+    if pre_n:
+        divider_x = x0 + pre_n * group_w
+        svg += f'<line x1="{divider_x:.1f}" y1="{y0}" x2="{divider_x:.1f}" y2="{y1+34}" stroke="#999" stroke-width="1.2" stroke-dasharray="4,3"/>\n'
+        svg += _svg_text(x0 + (divider_x - x0) / 2, y0 - 10, "哈兰德加盟前", size=10, color="#555", bold=True)
+        svg += _svg_text(divider_x + (x1 - divider_x) / 2, y0 - 10, "哈兰德加盟后", size=10, color="#1f77b4", bold=True)
+
+    lx = x0 + 10
+    for label, color in [
+        ("进球 GF（前）", "#7f7f7f"),
+        ("积分 Pts（前）", "#c7c7c7"),
+        ("进球 GF（后）", "#1f77b4"),
+        ("积分 Pts（后）", "#ff7f0e"),
+    ]:
+        svg += f'<rect x="{lx}" y="{H - 28}" width="12" height="12" fill="{color}"/>\n'
+        svg += _svg_text(lx + 16, H - 18, label, anchor="start", size=9)
+        lx += 170
+
+    svg += _svg_footer()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(svg, encoding="utf-8")
+
+
+def chart_haaland_vs_league_avg(records: list[dict], path: Path) -> None:
+    metrics = [
+        ("goals_90", "进球/90"),
+        ("shots_total_90", "射门/90"),
+        ("shots_on_target_90", "射正/90"),
+        ("goals_shot", "每射门进球率"),
+    ]
+    summary = []
+    for key, label in metrics:
+        haaland_vals = [r.get(key) for r in records if r.get(key) is not None]
+        league_vals = [r.get(f"league_avg_{key}") for r in records if r.get(f"league_avg_{key}") is not None]
+        haaland_avg = sum(haaland_vals) / len(haaland_vals) if haaland_vals else 0
+        league_avg = sum(league_vals) / len(league_vals) if league_vals else 0
+        summary.append((label, haaland_avg, league_avg))
+
+    x0 = MARGIN["left"]
+    x1 = W - MARGIN["right"]
+    y0 = MARGIN["top"] + 10
+    y1 = H - MARGIN["bottom"]
+    vmax = max([max(h, l) for _, h, l in summary] + [1]) * 1.15
+    n = len(summary)
+    group_w = (x1 - x0) / n
+    bar_w = group_w * 0.32
+
+    svg = _svg_header("哈兰德 vs 联赛平均（入榜球员） Haaland vs League Average")
+    svg += _svg_axes(x0, y0, x1, y1)
+
+    for tick_f in [i * 0.2 for i in range(0, int(vmax / 0.2) + 2)]:
+        if tick_f > vmax * 1.02:
+            break
+        ty = _scale(tick_f, 0, vmax, y1, y0)
+        svg += f'<line x1="{x0-5}" y1="{ty:.1f}" x2="{x0}" y2="{ty:.1f}" stroke="black" stroke-width="1"/>\n'
+        svg += _svg_text(x0 - 8, ty + 4, f"{tick_f:.1f}", anchor="end", size=10)
+        svg += f'<line x1="{x0}" y1="{ty:.1f}" x2="{x1}" y2="{ty:.1f}" stroke="#ddd" stroke-width="0.8"/>\n'
+
+    for i, (label, hv, lv) in enumerate(summary):
+        gx = x0 + i * group_w + group_w * 0.18
+        hy = _scale(hv, 0, vmax, y1, y0)
+        ly = _scale(lv, 0, vmax, y1, y0)
+        svg += f'<rect x="{gx:.1f}" y="{hy:.1f}" width="{bar_w:.1f}" height="{y1-hy:.1f}" fill="#1f77b4" opacity="0.9"/>\n'
+        svg += f'<rect x="{gx+bar_w+4:.1f}" y="{ly:.1f}" width="{bar_w:.1f}" height="{y1-ly:.1f}" fill="#ff7f0e" opacity="0.9"/>\n'
+        svg += _svg_text(gx + bar_w / 2, hy - 3, f"{hv:.2f}", size=9, color="#1f77b4", bold=True)
+        svg += _svg_text(gx + bar_w + 4 + bar_w / 2, ly - 3, f"{lv:.2f}", size=9, color="#ff7f0e", bold=True)
+        svg += _svg_text(gx + bar_w, y1 + 18, label, size=9)
+
+    lx = x0 + 10
+    for label, color in [("哈兰德（3季均值）", "#1f77b4"), ("联赛均值（同指标入榜球员）", "#ff7f0e")]:
+        svg += f'<rect x="{lx}" y="{H - 28}" width="12" height="12" fill="{color}"/>\n'
+        svg += _svg_text(lx + 16, H - 18, label, anchor="start", size=10)
+        lx += 260
+
+    svg += _svg_footer()
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(svg, encoding="utf-8")
+
+
 # ---------------------------------------------------------------------------
 # Markdown report
 # ---------------------------------------------------------------------------
@@ -555,7 +775,7 @@ def _sep(n) -> str:
     return "|" + "|".join(["---"] * n) + "|\n"
 
 
-def build_report(records: list[dict]) -> str:
+def build_report(records: list[dict], pre_records: list[dict]) -> str:
     lines = []
     lines.append("# 哈兰德（Erling Haaland）英超数据分析报告\n")
     lines.append(
@@ -630,8 +850,43 @@ def build_report(records: list[dict]) -> str:
             )
         )
 
-    # Section 5 – Analysis narrative
-    lines.append("\n## 五、综合分析\n")
+    # Section 5 – City before Haaland
+    lines.append("\n## 五、哈兰德出现之前曼城的进攻数据和成绩（2019-20至2021-22）\n")
+    lines.append(_row("赛季", "曼城联赛名次", "曼城积分", "曼城总进球", "曼城队内最佳射手（进球）"))
+    lines.append(_sep(5))
+    for r in pre_records:
+        top_scorer = _parse_top_scorer_name(r.get("city_top_scorer_raw") or "")
+        scorer_goals = _fmt(r.get("city_top_scorer_goals"))
+        lines.append(
+            _row(
+                r["season"],
+                _fmt(r.get("city_rank")),
+                _fmt(r.get("city_pts")),
+                _fmt(r.get("city_goals")),
+                f"{top_scorer} ({scorer_goals})" if top_scorer else "N/A",
+            )
+        )
+
+    # Section 6 – Haaland vs league average
+    lines.append("\n## 六、哈兰德与联赛平均水平对比（入榜球员样本）\n")
+    lines.append(_row("指标", "哈兰德（3季均值）", "联赛均值（同指标入榜球员）", "倍数"))
+    lines.append(_sep(4))
+    compare_metrics = [
+        ("goals_90", "进球/90"),
+        ("shots_total_90", "射门/90"),
+        ("shots_on_target_90", "射正/90"),
+        ("goals_shot", "每射门进球率"),
+    ]
+    for key, label in compare_metrics:
+        h_vals = [r.get(key) for r in records if r.get(key) is not None]
+        l_vals = [r.get(f"league_avg_{key}") for r in records if r.get(f"league_avg_{key}") is not None]
+        h_avg = round(sum(h_vals) / len(h_vals), 3) if h_vals else None
+        l_avg = round(sum(l_vals) / len(l_vals), 3) if l_vals else None
+        ratio = _safe_ratio(h_avg, l_avg, 2)
+        lines.append(_row(label, _fmt(h_avg), _fmt(l_avg), _fmt(ratio)))
+
+    # Section 7 – Analysis narrative
+    lines.append("\n## 七、综合分析\n")
 
     r22 = records[0] if records else {}
     r23 = records[1] if len(records) > 1 else {}
@@ -677,12 +932,14 @@ def build_report(records: list[dict]) -> str:
         "其第三赛季产量下滑与曼城排名滑落至第3名存在明显相关性。\n"
     )
 
-    lines.append("\n## 六、图表说明\n")
+    lines.append("\n## 八、图表说明\n")
     lines.append(
         "- `haaland_season_stats.svg`：各赛季进球、助攻、射门、射正对比柱状图。\n"
         "- `haaland_vs_top_scorers.svg`：哈兰德与各赛季英超射手王进球数对比。\n"
         "- `haaland_mancity_contribution.svg`：哈兰德进球在曼城总进球中占比（堆叠柱状图）。\n"
         "- `haaland_per90_metrics.svg`：每90分钟效率指标跨赛季对比。\n"
+        "- `haaland_pre_mancity_context.svg`：哈兰德加盟前后，曼城进球与积分对比。\n"
+        "- `haaland_vs_league_avg.svg`：哈兰德与联赛同指标入榜球员平均值对比。\n"
     )
 
     return "".join(lines)
@@ -698,6 +955,7 @@ def main() -> None:
 
     print("Extracting Haaland data from all seasons...")
     records = build_haaland_dataset()
+    pre_records = build_pre_haaland_city_dataset()
     for r in records:
         print(
             f"  {r['season']}: goals={r.get('goals')}, assists={r.get('assists')}, "
@@ -720,7 +978,13 @@ def main() -> None:
     chart_per90_metrics(records, OUT_DIR / "haaland_per90_metrics.svg")
     print(f"Saved: {OUT_DIR / 'haaland_per90_metrics.svg'}")
 
-    report = build_report(records)
+    chart_pre_mancity_context(pre_records, records, OUT_DIR / "haaland_pre_mancity_context.svg")
+    print(f"Saved: {OUT_DIR / 'haaland_pre_mancity_context.svg'}")
+
+    chart_haaland_vs_league_avg(records, OUT_DIR / "haaland_vs_league_avg.svg")
+    print(f"Saved: {OUT_DIR / 'haaland_vs_league_avg.svg'}")
+
+    report = build_report(records, pre_records)
     report_path = OUT_DIR / "HAALAND_ANALYSIS_REPORT.md"
     report_path.write_text(report, encoding="utf-8")
     print(f"Saved: {report_path}")
