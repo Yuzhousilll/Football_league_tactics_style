@@ -31,6 +31,20 @@ CITY_METRICS = [
     "penalties_won_per_match",
 ]
 
+TREND_METRICS = [
+    "shots_per_match",
+    "shots_on_target_per_match",
+    "goals_per_match",
+    "cross_volume_per_match",
+]
+
+TREND_METRIC_COLORS = {
+    "shots_per_match": "#1f77b4",
+    "shots_on_target_per_match": "#ff7f0e",
+    "goals_per_match": "#006400",
+    "cross_volume_per_match": "#d62728",
+}
+
 CITY_METRIC_LABELS = {
     "shots_per_match": "Shots/Match",
     "shots_on_target_per_match": "Shots on Target/Match",
@@ -211,10 +225,17 @@ def plot_pre_post_bars(comp_df: pd.DataFrame, output_path: Path) -> None:
 def plot_tactical_shift_trend(city_df: pd.DataFrame, output_path: Path) -> None:
     fig, ax = plt.subplots(figsize=(12, 6))
 
-    for metric in CITY_METRICS:
+    for metric in TREND_METRICS:
         values = city_df[metric].to_numpy(dtype=float)
         z = (values - values.mean()) / (values.std(ddof=0) if values.std(ddof=0) != 0 else 1)
-        ax.plot(city_df["season_year"], z, marker="o", linewidth=2, label=CITY_METRIC_LABELS[metric])
+        ax.plot(
+            city_df["season_year"],
+            z,
+            marker="o",
+            linewidth=2,
+            label=CITY_METRIC_LABELS[metric],
+            color=TREND_METRIC_COLORS.get(metric),
+        )
 
     ax.axvline(2022, color="black", linestyle="--", linewidth=1.5, label="Haaland joined (2022-23)")
     ax.axhline(0, color="gray", linestyle="--", linewidth=1)
