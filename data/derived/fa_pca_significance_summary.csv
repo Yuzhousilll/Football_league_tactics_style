@@ -1,0 +1,4 @@
+model,n_samples,n_vars,sample_var_ratio,kmo,bartlett_chi2,bartlett_df,bartlett_p,significant_0.05,significant_0.001
+PCA_8vars,180,8,22.5,0.7022680090935393,883.0320852640817,28,0.0,True,True
+FA_9vars,180,9,20.0,0.6322338140796784,442.19619035995834,36,0.0,True,True
+FA_12vars,180,12,15.0,0.7463711619101099,1866.5008198081,66,0.0,True,True
