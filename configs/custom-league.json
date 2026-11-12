@@ -1,0 +1,9 @@
+{
+  "league": "la-liga",
+  "season_start": "2022-2023",
+  "season_end": "2024-2025",
+  "teams": ["Barcelona", "Real Madrid"],
+  "players": ["Robert Lewandowski"],
+  "source": {"mode": "csv", "teams_csv": "../inputs/la-liga-teams.csv", "players_csv": "../inputs/la-liga-players.csv"},
+  "model": {"clusters": 4, "max_factors": 6, "missing_threshold": 0.2, "random_state": 42}
+}

@@ -1,0 +1,11 @@
+{
+  "league": "premier-league",
+  "season_start": "2016-2017",
+  "season_end": "2024-2025",
+  "teams": ["Manchester Utd", "Manchester City"],
+  "players": ["Erling Haaland"],
+  "event": {"team": "Manchester City", "player": "Erling Haaland", "season": "2022-2023", "label": "加盟"},
+  "aliases": {"teams": {"Manchester United": "Manchester Utd"}, "players": {}},
+  "source": {"mode": "archive", "root": ".."},
+  "model": {"clusters": 4, "max_factors": 6, "missing_threshold": 0.2, "random_state": 42, "points_extension": false}
+}

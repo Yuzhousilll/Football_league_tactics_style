@@ -1,0 +1,6 @@
+interface:
+  display_name: "英超多赛季数据采集与战术分析"
+  short_description: "切换联赛、赛季、球队和球员，复用论文方法生成含图表与来源的规范报告"
+  default_prompt: "使用 $football-tactical-report，按我指定的联赛、赛季范围、球队和球员生成规范战术分析报告。"
+policy:
+  allow_implicit_invocation: true
